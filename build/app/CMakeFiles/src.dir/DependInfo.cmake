@@ -4,10 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/dyanchuk/Desktop/sprint04/t01/app/src/Axe.cpp" "/Users/dyanchuk/Desktop/sprint04/t01/build/app/CMakeFiles/src.dir/src/Axe.cpp.o"
-  "/Users/dyanchuk/Desktop/sprint04/t01/app/src/ImperialSoldier.cpp" "/Users/dyanchuk/Desktop/sprint04/t01/build/app/CMakeFiles/src.dir/src/ImperialSoldier.cpp.o"
-  "/Users/dyanchuk/Desktop/sprint04/t01/app/src/Stormcloaksoldier.cpp" "/Users/dyanchuk/Desktop/sprint04/t01/build/app/CMakeFiles/src.dir/src/Stormcloaksoldier.cpp.o"
-  "/Users/dyanchuk/Desktop/sprint04/t01/app/src/Sword.cpp" "/Users/dyanchuk/Desktop/sprint04/t01/build/app/CMakeFiles/src.dir/src/Sword.cpp.o"
+  "/Users/dyanchuk/Desktop/race00_cpp/app/src/field.cpp" "/Users/dyanchuk/Desktop/race00_cpp/build/app/CMakeFiles/src.dir/src/field.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

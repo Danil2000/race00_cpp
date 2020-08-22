@@ -67,10 +67,10 @@ RM = /Users/dyanchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/dyanchuk/Desktop/sprint04/t01
+CMAKE_SOURCE_DIR = /Users/dyanchuk/Desktop/race00_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/dyanchuk/Desktop/sprint04/t01/build
+CMAKE_BINARY_DIR = /Users/dyanchuk/Desktop/race00_cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,14 +99,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/dyanchuk/Desktop/sprint04/t01/build/CMakeFiles /Users/dyanchuk/Desktop/sprint04/t01/build/app//CMakeFiles/progress.marks
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dyanchuk/Desktop/sprint04/t01/build/CMakeFiles 0
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/dyanchuk/Desktop/race00_cpp/build/CMakeFiles /Users/dyanchuk/Desktop/race00_cpp/build/app//CMakeFiles/progress.marks
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dyanchuk/Desktop/race00_cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/clean
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/clean
 .PHONY : clean
 
 # The main clean target
@@ -116,22 +116,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/preinstall
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/preinstall
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 app/CMakeFiles/src.dir/rule:
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/CMakeFiles/src.dir/rule
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/CMakeFiles/src.dir/rule
 .PHONY : app/CMakeFiles/src.dir/rule
 
 # Convenience name for target.
@@ -141,116 +141,35 @@ src: app/CMakeFiles/src.dir/rule
 
 # fast build rule for target.
 src/fast:
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/src.dir/build.make app/CMakeFiles/src.dir/build
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/src.dir/build.make app/CMakeFiles/src.dir/build
 .PHONY : src/fast
 
-src/Axe.o: src/Axe.cpp.o
+src/field.o: src/field.cpp.o
 
-.PHONY : src/Axe.o
-
-# target to build an object file
-src/Axe.cpp.o:
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/src.dir/build.make app/CMakeFiles/src.dir/src/Axe.cpp.o
-.PHONY : src/Axe.cpp.o
-
-src/Axe.i: src/Axe.cpp.i
-
-.PHONY : src/Axe.i
-
-# target to preprocess a source file
-src/Axe.cpp.i:
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/src.dir/build.make app/CMakeFiles/src.dir/src/Axe.cpp.i
-.PHONY : src/Axe.cpp.i
-
-src/Axe.s: src/Axe.cpp.s
-
-.PHONY : src/Axe.s
-
-# target to generate assembly for a file
-src/Axe.cpp.s:
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/src.dir/build.make app/CMakeFiles/src.dir/src/Axe.cpp.s
-.PHONY : src/Axe.cpp.s
-
-src/ImperialSoldier.o: src/ImperialSoldier.cpp.o
-
-.PHONY : src/ImperialSoldier.o
+.PHONY : src/field.o
 
 # target to build an object file
-src/ImperialSoldier.cpp.o:
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/src.dir/build.make app/CMakeFiles/src.dir/src/ImperialSoldier.cpp.o
-.PHONY : src/ImperialSoldier.cpp.o
+src/field.cpp.o:
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/src.dir/build.make app/CMakeFiles/src.dir/src/field.cpp.o
+.PHONY : src/field.cpp.o
 
-src/ImperialSoldier.i: src/ImperialSoldier.cpp.i
+src/field.i: src/field.cpp.i
 
-.PHONY : src/ImperialSoldier.i
-
-# target to preprocess a source file
-src/ImperialSoldier.cpp.i:
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/src.dir/build.make app/CMakeFiles/src.dir/src/ImperialSoldier.cpp.i
-.PHONY : src/ImperialSoldier.cpp.i
-
-src/ImperialSoldier.s: src/ImperialSoldier.cpp.s
-
-.PHONY : src/ImperialSoldier.s
-
-# target to generate assembly for a file
-src/ImperialSoldier.cpp.s:
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/src.dir/build.make app/CMakeFiles/src.dir/src/ImperialSoldier.cpp.s
-.PHONY : src/ImperialSoldier.cpp.s
-
-src/Stormcloaksoldier.o: src/Stormcloaksoldier.cpp.o
-
-.PHONY : src/Stormcloaksoldier.o
-
-# target to build an object file
-src/Stormcloaksoldier.cpp.o:
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/src.dir/build.make app/CMakeFiles/src.dir/src/Stormcloaksoldier.cpp.o
-.PHONY : src/Stormcloaksoldier.cpp.o
-
-src/Stormcloaksoldier.i: src/Stormcloaksoldier.cpp.i
-
-.PHONY : src/Stormcloaksoldier.i
+.PHONY : src/field.i
 
 # target to preprocess a source file
-src/Stormcloaksoldier.cpp.i:
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/src.dir/build.make app/CMakeFiles/src.dir/src/Stormcloaksoldier.cpp.i
-.PHONY : src/Stormcloaksoldier.cpp.i
+src/field.cpp.i:
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/src.dir/build.make app/CMakeFiles/src.dir/src/field.cpp.i
+.PHONY : src/field.cpp.i
 
-src/Stormcloaksoldier.s: src/Stormcloaksoldier.cpp.s
+src/field.s: src/field.cpp.s
 
-.PHONY : src/Stormcloaksoldier.s
-
-# target to generate assembly for a file
-src/Stormcloaksoldier.cpp.s:
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/src.dir/build.make app/CMakeFiles/src.dir/src/Stormcloaksoldier.cpp.s
-.PHONY : src/Stormcloaksoldier.cpp.s
-
-src/Sword.o: src/Sword.cpp.o
-
-.PHONY : src/Sword.o
-
-# target to build an object file
-src/Sword.cpp.o:
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/src.dir/build.make app/CMakeFiles/src.dir/src/Sword.cpp.o
-.PHONY : src/Sword.cpp.o
-
-src/Sword.i: src/Sword.cpp.i
-
-.PHONY : src/Sword.i
-
-# target to preprocess a source file
-src/Sword.cpp.i:
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/src.dir/build.make app/CMakeFiles/src.dir/src/Sword.cpp.i
-.PHONY : src/Sword.cpp.i
-
-src/Sword.s: src/Sword.cpp.s
-
-.PHONY : src/Sword.s
+.PHONY : src/field.s
 
 # target to generate assembly for a file
-src/Sword.cpp.s:
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/src.dir/build.make app/CMakeFiles/src.dir/src/Sword.cpp.s
-.PHONY : src/Sword.cpp.s
+src/field.cpp.s:
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/src.dir/build.make app/CMakeFiles/src.dir/src/field.cpp.s
+.PHONY : src/field.cpp.s
 
 # Help Target
 help:
@@ -261,18 +180,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... src"
-	@echo "... src/Axe.o"
-	@echo "... src/Axe.i"
-	@echo "... src/Axe.s"
-	@echo "... src/ImperialSoldier.o"
-	@echo "... src/ImperialSoldier.i"
-	@echo "... src/ImperialSoldier.s"
-	@echo "... src/Stormcloaksoldier.o"
-	@echo "... src/Stormcloaksoldier.i"
-	@echo "... src/Stormcloaksoldier.s"
-	@echo "... src/Sword.o"
-	@echo "... src/Sword.i"
-	@echo "... src/Sword.s"
+	@echo "... src/field.o"
+	@echo "... src/field.i"
+	@echo "... src/field.s"
 .PHONY : help
 
 
@@ -284,6 +194,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

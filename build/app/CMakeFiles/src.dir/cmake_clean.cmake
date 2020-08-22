@@ -1,8 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/src.dir/src/Axe.cpp.o"
-  "CMakeFiles/src.dir/src/ImperialSoldier.cpp.o"
-  "CMakeFiles/src.dir/src/Stormcloaksoldier.cpp.o"
-  "CMakeFiles/src.dir/src/Sword.cpp.o"
+  "CMakeFiles/src.dir/src/field.cpp.o"
   "libsrc.a"
   "libsrc.pdb"
 )

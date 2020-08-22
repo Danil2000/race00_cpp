@@ -6,41 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/dyanchuk/Desktop/sprint04/t01/app/src/Axe.cpp
-Axe.h
-/Users/dyanchuk/Desktop/sprint04/t01/app/src/Axe.h
+/Users/dyanchuk/Desktop/race00_cpp/app/src/field.cpp
+field.h
+/Users/dyanchuk/Desktop/race00_cpp/app/src/field.h
 
-/Users/dyanchuk/Desktop/sprint04/t01/app/src/Axe.h
-iostream
--
-
-/Users/dyanchuk/Desktop/sprint04/t01/app/src/ImperialSoldier.cpp
-ImperialSoldier.h
-/Users/dyanchuk/Desktop/sprint04/t01/app/src/ImperialSoldier.h
-StormcloakSoldier.h
-/Users/dyanchuk/Desktop/sprint04/t01/app/src/StormcloakSoldier.h
-Sword.h
-/Users/dyanchuk/Desktop/sprint04/t01/app/src/Sword.h
-
-/Users/dyanchuk/Desktop/sprint04/t01/app/src/ImperialSoldier.h
-iostream
--
-
-/Users/dyanchuk/Desktop/sprint04/t01/app/src/StormcloakSoldier.h
-
-/Users/dyanchuk/Desktop/sprint04/t01/app/src/Stormcloaksoldier.cpp
-StormcloakSoldier.h
-/Users/dyanchuk/Desktop/sprint04/t01/app/src/StormcloakSoldier.h
-ImperialSoldier.h
-/Users/dyanchuk/Desktop/sprint04/t01/app/src/ImperialSoldier.h
-Axe.h
-/Users/dyanchuk/Desktop/sprint04/t01/app/src/Axe.h
-
-/Users/dyanchuk/Desktop/sprint04/t01/app/src/Sword.cpp
-Sword.h
-/Users/dyanchuk/Desktop/sprint04/t01/app/src/Sword.h
-
-/Users/dyanchuk/Desktop/sprint04/t01/app/src/Sword.h
-iostream
--
+/Users/dyanchuk/Desktop/race00_cpp/app/src/field.h
 

@@ -2,8 +2,7 @@ cmake_minimum_required(VERSION 2.8)
 
 project(app)
 
-list(APPEND SOURCE_FILES Axe.cpp ImperialSoldier.cpp Stormcloaksoldier.cpp
-    Sword.cpp)
+list(APPEND SOURCE_FILES field.cpp)
 foreach(file ${SOURCE_FILES})
     list(APPEND SOURCE_PATHES src/${file})
 endforeach()

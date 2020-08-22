@@ -1,4 +1,4 @@
-# Install script for directory: /Users/dyanchuk/Desktop/sprint04/t01/app
+# Install script for directory: /Users/dyanchuk/Desktop/race00_cpp/app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

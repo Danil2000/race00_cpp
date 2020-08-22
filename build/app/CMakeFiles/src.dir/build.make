@@ -62,10 +62,10 @@ RM = /Users/dyanchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/dyanchuk/Desktop/sprint04/t01
+CMAKE_SOURCE_DIR = /Users/dyanchuk/Desktop/race00_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/dyanchuk/Desktop/sprint04/t01/build
+CMAKE_BINARY_DIR = /Users/dyanchuk/Desktop/race00_cpp/build
 
 # Include any dependencies generated for this target.
 include app/CMakeFiles/src.dir/depend.make
@@ -76,77 +76,32 @@ include app/CMakeFiles/src.dir/progress.make
 # Include the compile flags for this target's objects.
 include app/CMakeFiles/src.dir/flags.make
 
-app/CMakeFiles/src.dir/src/Axe.cpp.o: app/CMakeFiles/src.dir/flags.make
-app/CMakeFiles/src.dir/src/Axe.cpp.o: ../app/src/Axe.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dyanchuk/Desktop/sprint04/t01/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/src.dir/src/Axe.cpp.o"
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/src/Axe.cpp.o -c /Users/dyanchuk/Desktop/sprint04/t01/app/src/Axe.cpp
+app/CMakeFiles/src.dir/src/field.cpp.o: app/CMakeFiles/src.dir/flags.make
+app/CMakeFiles/src.dir/src/field.cpp.o: ../app/src/field.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dyanchuk/Desktop/race00_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/src.dir/src/field.cpp.o"
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/src/field.cpp.o -c /Users/dyanchuk/Desktop/race00_cpp/app/src/field.cpp
 
-app/CMakeFiles/src.dir/src/Axe.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/src/Axe.cpp.i"
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dyanchuk/Desktop/sprint04/t01/app/src/Axe.cpp > CMakeFiles/src.dir/src/Axe.cpp.i
+app/CMakeFiles/src.dir/src/field.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/src/field.cpp.i"
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dyanchuk/Desktop/race00_cpp/app/src/field.cpp > CMakeFiles/src.dir/src/field.cpp.i
 
-app/CMakeFiles/src.dir/src/Axe.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/src/Axe.cpp.s"
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dyanchuk/Desktop/sprint04/t01/app/src/Axe.cpp -o CMakeFiles/src.dir/src/Axe.cpp.s
-
-app/CMakeFiles/src.dir/src/ImperialSoldier.cpp.o: app/CMakeFiles/src.dir/flags.make
-app/CMakeFiles/src.dir/src/ImperialSoldier.cpp.o: ../app/src/ImperialSoldier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dyanchuk/Desktop/sprint04/t01/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object app/CMakeFiles/src.dir/src/ImperialSoldier.cpp.o"
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/src/ImperialSoldier.cpp.o -c /Users/dyanchuk/Desktop/sprint04/t01/app/src/ImperialSoldier.cpp
-
-app/CMakeFiles/src.dir/src/ImperialSoldier.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/src/ImperialSoldier.cpp.i"
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dyanchuk/Desktop/sprint04/t01/app/src/ImperialSoldier.cpp > CMakeFiles/src.dir/src/ImperialSoldier.cpp.i
-
-app/CMakeFiles/src.dir/src/ImperialSoldier.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/src/ImperialSoldier.cpp.s"
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dyanchuk/Desktop/sprint04/t01/app/src/ImperialSoldier.cpp -o CMakeFiles/src.dir/src/ImperialSoldier.cpp.s
-
-app/CMakeFiles/src.dir/src/Stormcloaksoldier.cpp.o: app/CMakeFiles/src.dir/flags.make
-app/CMakeFiles/src.dir/src/Stormcloaksoldier.cpp.o: ../app/src/Stormcloaksoldier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dyanchuk/Desktop/sprint04/t01/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object app/CMakeFiles/src.dir/src/Stormcloaksoldier.cpp.o"
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/src/Stormcloaksoldier.cpp.o -c /Users/dyanchuk/Desktop/sprint04/t01/app/src/Stormcloaksoldier.cpp
-
-app/CMakeFiles/src.dir/src/Stormcloaksoldier.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/src/Stormcloaksoldier.cpp.i"
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dyanchuk/Desktop/sprint04/t01/app/src/Stormcloaksoldier.cpp > CMakeFiles/src.dir/src/Stormcloaksoldier.cpp.i
-
-app/CMakeFiles/src.dir/src/Stormcloaksoldier.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/src/Stormcloaksoldier.cpp.s"
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dyanchuk/Desktop/sprint04/t01/app/src/Stormcloaksoldier.cpp -o CMakeFiles/src.dir/src/Stormcloaksoldier.cpp.s
-
-app/CMakeFiles/src.dir/src/Sword.cpp.o: app/CMakeFiles/src.dir/flags.make
-app/CMakeFiles/src.dir/src/Sword.cpp.o: ../app/src/Sword.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dyanchuk/Desktop/sprint04/t01/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object app/CMakeFiles/src.dir/src/Sword.cpp.o"
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/src/Sword.cpp.o -c /Users/dyanchuk/Desktop/sprint04/t01/app/src/Sword.cpp
-
-app/CMakeFiles/src.dir/src/Sword.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/src/Sword.cpp.i"
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dyanchuk/Desktop/sprint04/t01/app/src/Sword.cpp > CMakeFiles/src.dir/src/Sword.cpp.i
-
-app/CMakeFiles/src.dir/src/Sword.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/src/Sword.cpp.s"
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dyanchuk/Desktop/sprint04/t01/app/src/Sword.cpp -o CMakeFiles/src.dir/src/Sword.cpp.s
+app/CMakeFiles/src.dir/src/field.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/src/field.cpp.s"
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dyanchuk/Desktop/race00_cpp/app/src/field.cpp -o CMakeFiles/src.dir/src/field.cpp.s
 
 # Object files for target src
 src_OBJECTS = \
-"CMakeFiles/src.dir/src/Axe.cpp.o" \
-"CMakeFiles/src.dir/src/ImperialSoldier.cpp.o" \
-"CMakeFiles/src.dir/src/Stormcloaksoldier.cpp.o" \
-"CMakeFiles/src.dir/src/Sword.cpp.o"
+"CMakeFiles/src.dir/src/field.cpp.o"
 
 # External object files for target src
 src_EXTERNAL_OBJECTS =
 
-app/libsrc.a: app/CMakeFiles/src.dir/src/Axe.cpp.o
-app/libsrc.a: app/CMakeFiles/src.dir/src/ImperialSoldier.cpp.o
-app/libsrc.a: app/CMakeFiles/src.dir/src/Stormcloaksoldier.cpp.o
-app/libsrc.a: app/CMakeFiles/src.dir/src/Sword.cpp.o
+app/libsrc.a: app/CMakeFiles/src.dir/src/field.cpp.o
 app/libsrc.a: app/CMakeFiles/src.dir/build.make
 app/libsrc.a: app/CMakeFiles/src.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dyanchuk/Desktop/sprint04/t01/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libsrc.a"
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build/app && $(CMAKE_COMMAND) -P CMakeFiles/src.dir/cmake_clean_target.cmake
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/src.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dyanchuk/Desktop/race00_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libsrc.a"
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/app && $(CMAKE_COMMAND) -P CMakeFiles/src.dir/cmake_clean_target.cmake
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/src.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 app/CMakeFiles/src.dir/build: app/libsrc.a
@@ -154,10 +109,10 @@ app/CMakeFiles/src.dir/build: app/libsrc.a
 .PHONY : app/CMakeFiles/src.dir/build
 
 app/CMakeFiles/src.dir/clean:
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build/app && $(CMAKE_COMMAND) -P CMakeFiles/src.dir/cmake_clean.cmake
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/app && $(CMAKE_COMMAND) -P CMakeFiles/src.dir/cmake_clean.cmake
 .PHONY : app/CMakeFiles/src.dir/clean
 
 app/CMakeFiles/src.dir/depend:
-	cd /Users/dyanchuk/Desktop/sprint04/t01/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/dyanchuk/Desktop/sprint04/t01 /Users/dyanchuk/Desktop/sprint04/t01/app /Users/dyanchuk/Desktop/sprint04/t01/build /Users/dyanchuk/Desktop/sprint04/t01/build/app /Users/dyanchuk/Desktop/sprint04/t01/build/app/CMakeFiles/src.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/dyanchuk/Desktop/race00_cpp /Users/dyanchuk/Desktop/race00_cpp/app /Users/dyanchuk/Desktop/race00_cpp/build /Users/dyanchuk/Desktop/race00_cpp/build/app /Users/dyanchuk/Desktop/race00_cpp/build/app/CMakeFiles/src.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : app/CMakeFiles/src.dir/depend
 

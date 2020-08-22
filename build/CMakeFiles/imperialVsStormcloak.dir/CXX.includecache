@@ -6,29 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/dyanchuk/Desktop/sprint04/t01/app/main.cpp
-iostream
--
-src/ImperialSoldier.h
-/Users/dyanchuk/Desktop/sprint04/t01/app/src/ImperialSoldier.h
-src/StormcloakSoldier.h
-/Users/dyanchuk/Desktop/sprint04/t01/app/src/StormcloakSoldier.h
-src/Sword.h
-/Users/dyanchuk/Desktop/sprint04/t01/app/src/Sword.h
-src/Axe.h
-/Users/dyanchuk/Desktop/sprint04/t01/app/src/Axe.h
-
-/Users/dyanchuk/Desktop/sprint04/t01/app/src/Axe.h
-iostream
--
-
-/Users/dyanchuk/Desktop/sprint04/t01/app/src/ImperialSoldier.h
-iostream
--
-
-/Users/dyanchuk/Desktop/sprint04/t01/app/src/StormcloakSoldier.h
-
-/Users/dyanchuk/Desktop/sprint04/t01/app/src/Sword.h
+/Users/dyanchuk/Desktop/race00_cpp/app/main.cpp
 iostream
 -
 
