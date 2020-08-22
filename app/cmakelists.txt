@@ -7,5 +7,3 @@ foreach(file ${SOURCE_FILES})
     list(APPEND SOURCE_PATHES src/${file})
 endforeach()
 add_library(src STATIC ${SOURCE_PATHES})
-
-
