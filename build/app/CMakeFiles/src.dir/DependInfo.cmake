@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/dyanchuk/Desktop/race00_cpp/app/src/field.cpp" "/Users/dyanchuk/Desktop/race00_cpp/build/app/CMakeFiles/src.dir/src/field.cpp.o"
+  "/Users/dyanchuk/Desktop/race00_cpp/app/src/game.cpp" "/Users/dyanchuk/Desktop/race00_cpp/build/app/CMakeFiles/src.dir/src/game.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

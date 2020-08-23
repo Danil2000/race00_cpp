@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/src.dir/src/field.cpp.o"
+  "CMakeFiles/src.dir/src/game.cpp.o"
   "libsrc.a"
   "libsrc.pdb"
 )

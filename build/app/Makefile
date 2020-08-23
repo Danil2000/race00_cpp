@@ -144,32 +144,32 @@ src/fast:
 	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/src.dir/build.make app/CMakeFiles/src.dir/build
 .PHONY : src/fast
 
-src/field.o: src/field.cpp.o
+src/game.o: src/game.cpp.o
 
-.PHONY : src/field.o
+.PHONY : src/game.o
 
 # target to build an object file
-src/field.cpp.o:
-	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/src.dir/build.make app/CMakeFiles/src.dir/src/field.cpp.o
-.PHONY : src/field.cpp.o
+src/game.cpp.o:
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/src.dir/build.make app/CMakeFiles/src.dir/src/game.cpp.o
+.PHONY : src/game.cpp.o
 
-src/field.i: src/field.cpp.i
+src/game.i: src/game.cpp.i
 
-.PHONY : src/field.i
+.PHONY : src/game.i
 
 # target to preprocess a source file
-src/field.cpp.i:
-	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/src.dir/build.make app/CMakeFiles/src.dir/src/field.cpp.i
-.PHONY : src/field.cpp.i
+src/game.cpp.i:
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/src.dir/build.make app/CMakeFiles/src.dir/src/game.cpp.i
+.PHONY : src/game.cpp.i
 
-src/field.s: src/field.cpp.s
+src/game.s: src/game.cpp.s
 
-.PHONY : src/field.s
+.PHONY : src/game.s
 
 # target to generate assembly for a file
-src/field.cpp.s:
-	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/src.dir/build.make app/CMakeFiles/src.dir/src/field.cpp.s
-.PHONY : src/field.cpp.s
+src/game.cpp.s:
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/src.dir/build.make app/CMakeFiles/src.dir/src/game.cpp.s
+.PHONY : src/game.cpp.s
 
 # Help Target
 help:
@@ -180,9 +180,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... src"
-	@echo "... src/field.o"
-	@echo "... src/field.i"
-	@echo "... src/field.s"
+	@echo "... src/game.o"
+	@echo "... src/game.i"
+	@echo "... src/game.s"
 .PHONY : help
 
 

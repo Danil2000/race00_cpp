@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/dyanchuk/Desktop/race00_cpp/app/src/field.cpp
-field.h
-/Users/dyanchuk/Desktop/race00_cpp/app/src/field.h
+/Users/dyanchuk/Desktop/race00_cpp/app/src/game.cpp
+game.h
+/Users/dyanchuk/Desktop/race00_cpp/app/src/game.h
 
-/Users/dyanchuk/Desktop/race00_cpp/app/src/field.h
+/Users/dyanchuk/Desktop/race00_cpp/app/src/game.h
+cstdlib
+-
+iostream
+-
 

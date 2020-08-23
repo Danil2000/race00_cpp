@@ -1,2 +1,2 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libsrc.a CMakeFiles/src.dir/src/field.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ar qc libsrc.a CMakeFiles/src.dir/src/game.cpp.o
 /Library/Developer/CommandLineTools/usr/bin/ranlib libsrc.a

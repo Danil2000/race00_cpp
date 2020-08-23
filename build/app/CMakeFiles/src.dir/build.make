@@ -76,27 +76,27 @@ include app/CMakeFiles/src.dir/progress.make
 # Include the compile flags for this target's objects.
 include app/CMakeFiles/src.dir/flags.make
 
-app/CMakeFiles/src.dir/src/field.cpp.o: app/CMakeFiles/src.dir/flags.make
-app/CMakeFiles/src.dir/src/field.cpp.o: ../app/src/field.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dyanchuk/Desktop/race00_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/src.dir/src/field.cpp.o"
-	cd /Users/dyanchuk/Desktop/race00_cpp/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/src/field.cpp.o -c /Users/dyanchuk/Desktop/race00_cpp/app/src/field.cpp
+app/CMakeFiles/src.dir/src/game.cpp.o: app/CMakeFiles/src.dir/flags.make
+app/CMakeFiles/src.dir/src/game.cpp.o: ../app/src/game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dyanchuk/Desktop/race00_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/src.dir/src/game.cpp.o"
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/src/game.cpp.o -c /Users/dyanchuk/Desktop/race00_cpp/app/src/game.cpp
 
-app/CMakeFiles/src.dir/src/field.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/src/field.cpp.i"
-	cd /Users/dyanchuk/Desktop/race00_cpp/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dyanchuk/Desktop/race00_cpp/app/src/field.cpp > CMakeFiles/src.dir/src/field.cpp.i
+app/CMakeFiles/src.dir/src/game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/src/game.cpp.i"
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dyanchuk/Desktop/race00_cpp/app/src/game.cpp > CMakeFiles/src.dir/src/game.cpp.i
 
-app/CMakeFiles/src.dir/src/field.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/src/field.cpp.s"
-	cd /Users/dyanchuk/Desktop/race00_cpp/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dyanchuk/Desktop/race00_cpp/app/src/field.cpp -o CMakeFiles/src.dir/src/field.cpp.s
+app/CMakeFiles/src.dir/src/game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/src/game.cpp.s"
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dyanchuk/Desktop/race00_cpp/app/src/game.cpp -o CMakeFiles/src.dir/src/game.cpp.s
 
 # Object files for target src
 src_OBJECTS = \
-"CMakeFiles/src.dir/src/field.cpp.o"
+"CMakeFiles/src.dir/src/game.cpp.o"
 
 # External object files for target src
 src_EXTERNAL_OBJECTS =
 
-app/libsrc.a: app/CMakeFiles/src.dir/src/field.cpp.o
+app/libsrc.a: app/CMakeFiles/src.dir/src/game.cpp.o
 app/libsrc.a: app/CMakeFiles/src.dir/build.make
 app/libsrc.a: app/CMakeFiles/src.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dyanchuk/Desktop/race00_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libsrc.a"

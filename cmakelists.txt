@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8)
 
 project(imperialVsStormcloak)
 
-set(COMPILE_FLAGS "-std=c++17")
+set(COMPILE_FLAGS "-std=c++17 -lcusrces")
 
 add_definitions(${COMPILE_FLAGS})
 
