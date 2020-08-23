@@ -1,9 +1,22 @@
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.1)
 
-project(app)
+project(race00 LANGUAGES CXX)
 
-list(APPEND SOURCE_FILES game.cpp)
-foreach(file ${SOURCE_FILES})
-    list(APPEND SOURCE_PATHES src/${file})
-endforeach()
-add_library(src STATIC ${SOURCE_PATHES})
+set(SOURCE_EXE main.cpp)
+
+add_subdirectory(src)
+
+include_directories(../3dparty/SFML/include/SFML/)
+
+add_compile_options(
+        -std=c++17
+        -Werror
+        -Wall
+        -Wextra
+        -Wpedantic
+        -Wno-unused-parameter
+)
+
+add_executable(race00 ${SOURCE_EXE})
+
+target_link_libraries (race00 sfml-graphics sfml-window sfml-system src)

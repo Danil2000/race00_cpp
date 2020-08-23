@@ -1,8 +1,8 @@
-# Install script for directory: /Users/dyanchuk/Desktop/race00_cpp/app
+# Install script for directory: /Users/nkrutoholo/Desktop/race00/app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/dyanchuk/.brew")
+  set(CMAKE_INSTALL_PREFIX "/Users/nkrutoholo/.brew")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -35,5 +35,11 @@ endif()
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/Library/Developer/CommandLineTools/usr/bin/objdump")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for each subdirectory.
+  include("/Users/nkrutoholo/Desktop/race00/build/app/src/cmake_install.cmake")
+
 endif()
 
