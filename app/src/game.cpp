@@ -1,7 +1,7 @@
 #include "game.h"
 
 void Game::Draw(Game *game) {
-    system("clear");
+    //system("clear");
 
     for (int i = 0; i <= game->m_width; i++) {
         cout << "#";
@@ -27,9 +27,8 @@ void Game::Draw(Game *game) {
     cout << endl;
 }
 
-eDir Game::Input(eDir dir, Game &game) {
-    int ch = getch();
-
+eDir Game::Input(eDir dir, Game *game) {
+    char ch = getch();
     switch (ch)
     {
         case KEY_LEFT:
@@ -44,27 +43,34 @@ eDir Game::Input(eDir dir, Game &game) {
         case KEY_DOWN:
             dir = DOWN;
             break;
-        case KEY_REPLACE :
-            game.m_gameover = true;
+        case KEY_REPLACE:
+            game->m_gameover = true;
             break;
     }
+    cout << ch << endl;
     return dir;
 }
 
-void Game::Logic(eDir dir, Game &game) {
+void Game::Logic(eDir dir, Game *game) {
+
+    if (dir == LEFT)
+    {
+        game->m_sx--;
+    }
+
+    
     switch (dir)
     {
         case LEFT:
-            game.m_sx--;
             break;
         case RIGHT:
-            game.m_sx++;
+            game->m_sx++;
             break;
         case UP:
-            game.m_sy++;
+            game->m_sy++;
             break;
         case DOWN:
-            game.m_sy--;
+            game->m_sy--;
             break;
     }
 }

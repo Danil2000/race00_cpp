@@ -2,10 +2,11 @@
 #include <cstdlib>
 #include <iostream>
 #include <ncurses.h>
+#include <unistd.h>
 
 using namespace std;
 enum eDir {
-    STOP = 0,
+    STOP,
     LEFT,
     RIGHT,
     UP,
@@ -27,8 +28,8 @@ class Game {
             m_sy = sy;
         }
         void Draw(Game *game);
-        eDir Input(eDir dir, Game &game);
-        void Logic(eDir dir, Game &game);
+        eDir Input(eDir dir, Game *game);
+        void Logic(eDir dir, Game *game);
         void setGameover(bool gameover) {
             m_gameover = gameover;
         }
