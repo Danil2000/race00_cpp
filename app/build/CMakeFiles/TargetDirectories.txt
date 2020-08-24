@@ -1,0 +1,6 @@
+/Users/dyanchuk/Desktop/race00_cpp/app/build/CMakeFiles/rebuild_cache.dir
+/Users/dyanchuk/Desktop/race00_cpp/app/build/CMakeFiles/edit_cache.dir
+/Users/dyanchuk/Desktop/race00_cpp/app/build/CMakeFiles/race00.dir
+/Users/dyanchuk/Desktop/race00_cpp/app/build/src/CMakeFiles/rebuild_cache.dir
+/Users/dyanchuk/Desktop/race00_cpp/app/build/src/CMakeFiles/edit_cache.dir
+/Users/dyanchuk/Desktop/race00_cpp/app/build/src/CMakeFiles/src.dir

@@ -60,7 +60,7 @@ int main(int argc, char **argv) {
         }
         window.clear();
         window.draw(grass);
-        // window.draw(snake);
+        window.draw(snake);
         // window.draw(fruit);
         // window.draw(block);
         window.display();
@@ -83,4 +83,4 @@ int main(int argc, char **argv) {
     return 0;
 
 }
->>>>>>> e79755b75e42e8b46f5ab180e0d99e6f766b9f61
+

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/dyanchuk/Desktop/race00_cpp/app/main.cpp
+src/game.h
+/Users/dyanchuk/Desktop/race00_cpp/app/src/game.h
+SFML/Graphics.hpp
+/Users/dyanchuk/Desktop/race00_cpp/app/SFML/Graphics.hpp
+
+/Users/dyanchuk/Desktop/race00_cpp/app/src/game.h
+cstdlib
+-
+iostream
+-
+

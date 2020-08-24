@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/dyanchuk/Desktop/race00_cpp/app/src/Game.cpp
+game.h
+/Users/dyanchuk/Desktop/race00_cpp/app/src/game.h
+
+/Users/dyanchuk/Desktop/race00_cpp/app/src/game.h
+cstdlib
+-
+iostream
+-
+
