@@ -602,27 +602,27 @@ android/asset_manager.h
 string
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/BlendMode.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/BlendMode.cpp
 SFML/Graphics/BlendMode.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/CircleShape.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/CircleShape.cpp
 SFML/Graphics/CircleShape.hpp
 -
 cmath
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/Color.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/Color.cpp
 SFML/Graphics/Color.hpp
 -
 algorithm
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/ConvexShape.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/ConvexShape.cpp
 SFML/Graphics/ConvexShape.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/Font.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/Font.cpp
 SFML/Graphics/Font.hpp
 -
 SFML/Graphics/GLCheck.hpp
@@ -640,7 +640,7 @@ cstdlib
 cstring
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/GLCheck.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/GLCheck.cpp
 SFML/Graphics/GLCheck.hpp
 -
 SFML/System/Err.hpp
@@ -648,7 +648,7 @@ SFML/System/Err.hpp
 string
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/GLExtensions.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/GLExtensions.cpp
 SFML/Graphics/GLExtensions.hpp
 -
 SFML/Window/Context.hpp
@@ -656,19 +656,19 @@ SFML/Window/Context.hpp
 SFML/System/Err.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/GLLoader.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/GLLoader.cpp
 SFML/Graphics/GLLoader.hpp
 -
 SFML/Window/Context.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/Glsl.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/Glsl.cpp
 SFML/Graphics/Glsl.hpp
 -
 algorithm
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/Image.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/Image.cpp
 SFML/Graphics/Image.hpp
 -
 SFML/Graphics/ImageLoader.hpp
@@ -682,7 +682,7 @@ algorithm
 cstring
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/ImageLoader.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/ImageLoader.cpp
 SFML/Graphics/ImageLoader.hpp
 -
 SFML/System/InputStream.hpp
@@ -696,19 +696,19 @@ stb_image_write.h
 cctype
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/RectangleShape.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/RectangleShape.cpp
 SFML/Graphics/RectangleShape.hpp
 -
 cmath
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/RenderStates.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/RenderStates.cpp
 SFML/Graphics/RenderStates.hpp
 -
 cstddef
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/RenderTarget.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/RenderTarget.cpp
 SFML/Graphics/RenderTarget.hpp
 -
 SFML/Graphics/Drawable.hpp
@@ -740,7 +740,7 @@ algorithm
 map
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/RenderTexture.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/RenderTexture.cpp
 SFML/Graphics/RenderTexture.hpp
 -
 SFML/Graphics/RenderTextureImplFBO.hpp
@@ -750,11 +750,11 @@ SFML/Graphics/RenderTextureImplDefault.hpp
 SFML/System/Err.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/RenderTextureImpl.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/RenderTextureImpl.cpp
 SFML/Graphics/RenderTextureImpl.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/RenderTextureImplDefault.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/RenderTextureImplDefault.cpp
 SFML/Graphics/RenderTextureImplDefault.hpp
 -
 SFML/Graphics/GLCheck.hpp
@@ -766,7 +766,7 @@ SFML/Window/Context.hpp
 SFML/System/Err.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/RenderTextureImplFBO.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/RenderTextureImplFBO.cpp
 SFML/Graphics/RenderTextureImplFBO.hpp
 -
 SFML/Graphics/Texture.hpp
@@ -784,7 +784,7 @@ utility
 set
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/RenderWindow.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/RenderWindow.cpp
 SFML/Graphics/RenderWindow.hpp
 -
 SFML/Graphics/Texture.hpp
@@ -794,7 +794,7 @@ SFML/Graphics/GLCheck.hpp
 SFML/Graphics/RenderTextureImplFBO.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/Shader.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/Shader.cpp
 SFML/Graphics/Shader.hpp
 -
 SFML/Graphics/Texture.hpp
@@ -820,7 +820,7 @@ fstream
 vector
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/Shape.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/Shape.cpp
 SFML/Graphics/Shape.hpp
 -
 SFML/Graphics/RenderTarget.hpp
@@ -832,7 +832,7 @@ SFML/System/Err.hpp
 cmath
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/Sprite.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/Sprite.cpp
 SFML/Graphics/Sprite.hpp
 -
 SFML/Graphics/Texture.hpp
@@ -842,7 +842,7 @@ SFML/Graphics/RenderTarget.hpp
 cstdlib
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/Text.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/Text.cpp
 SFML/Graphics/Text.hpp
 -
 SFML/Graphics/Texture.hpp
@@ -852,7 +852,7 @@ SFML/Graphics/RenderTarget.hpp
 cmath
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/Texture.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/Texture.cpp
 SFML/Graphics/Texture.hpp
 -
 SFML/Graphics/Image.hpp
@@ -876,33 +876,33 @@ cassert
 cstring
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/TextureSaver.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/TextureSaver.cpp
 SFML/Graphics/TextureSaver.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/Transform.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/Transform.cpp
 SFML/Graphics/Transform.hpp
 -
 cmath
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/Transformable.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/Transformable.cpp
 SFML/Graphics/Transformable.hpp
 -
 cmath
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/Vertex.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/Vertex.cpp
 SFML/Graphics/Vertex.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/VertexArray.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/VertexArray.cpp
 SFML/Graphics/VertexArray.hpp
 -
 SFML/Graphics/RenderTarget.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/VertexBuffer.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/VertexBuffer.cpp
 SFML/Graphics/VertexBuffer.hpp
 -
 SFML/Graphics/RenderTarget.hpp
@@ -920,7 +920,7 @@ SFML/System/Err.hpp
 cstring
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Graphics/View.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Graphics/View.cpp
 SFML/Graphics/View.hpp
 -
 cmath

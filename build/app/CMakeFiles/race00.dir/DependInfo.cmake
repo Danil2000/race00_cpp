@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/nkrutoholo/Desktop/race00/app/main.cpp" "/Users/nkrutoholo/Desktop/race00/build/app/CMakeFiles/race00.dir/main.cpp.o"
+  "/Users/dyanchuk/Desktop/race00_cpp/app/main.cpp" "/Users/dyanchuk/Desktop/race00_cpp/build/app/CMakeFiles/race00.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
@@ -16,10 +16,10 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/DependInfo.cmake"
-  "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/DependInfo.cmake"
-  "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/DependInfo.cmake"
-  "/Users/nkrutoholo/Desktop/race00/build/app/src/CMakeFiles/src.dir/DependInfo.cmake"
+  "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/DependInfo.cmake"
+  "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/DependInfo.cmake"
+  "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/DependInfo.cmake"
+  "/Users/dyanchuk/Desktop/race00_cpp/build/app/src/CMakeFiles/src.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

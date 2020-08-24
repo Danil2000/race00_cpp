@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = -DSFML_NETWORK_EXPORTS
 
-CXX_INCLUDES = -I/Users/nkrutoholo/Desktop/race00/3dparty/SFML_INCLUDE_DIR -I/Users/nkrutoholo/Desktop/race00/3dparty/sfml/include -I/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src
+CXX_INCLUDES = -I/Users/dyanchuk/Desktop/race00_cpp/3dparty/SFML_INCLUDE_DIR -I/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/include -I/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src
 
 CXX_FLAGSx86_64 =  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIC -stdlib=libc++
 

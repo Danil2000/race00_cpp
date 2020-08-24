@@ -1,8 +1,8 @@
-# Install script for directory: /Users/nkrutoholo/Desktop/race00
+# Install script for directory: /Users/dyanchuk/Desktop/race00_cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/nkrutoholo/.brew")
+  set(CMAKE_INSTALL_PREFIX "/Users/dyanchuk/.brew")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/nkrutoholo/Desktop/race00/build/3dparty/cmake_install.cmake")
-  include("/Users/nkrutoholo/Desktop/race00/build/app/cmake_install.cmake")
+  include("/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/cmake_install.cmake")
+  include("/Users/dyanchuk/Desktop/race00_cpp/build/app/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/nkrutoholo/Desktop/race00/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/dyanchuk/Desktop/race00_cpp/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

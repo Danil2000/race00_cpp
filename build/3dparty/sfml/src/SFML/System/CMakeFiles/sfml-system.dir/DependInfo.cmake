@@ -4,22 +4,22 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/System/Clock.cpp" "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.o"
-  "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/System/Err.cpp" "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.o"
-  "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/System/FileInputStream.cpp" "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.o"
-  "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/System/Lock.cpp" "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.o"
-  "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/System/MemoryInputStream.cpp" "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.o"
-  "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/System/Mutex.cpp" "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.o"
-  "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/System/Sleep.cpp" "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.o"
-  "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/System/String.cpp" "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o"
-  "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/System/Thread.cpp" "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.o"
-  "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/System/ThreadLocal.cpp" "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.o"
-  "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/System/Time.cpp" "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.o"
-  "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/System/Unix/ClockImpl.cpp" "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ClockImpl.cpp.o"
-  "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/System/Unix/MutexImpl.cpp" "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/MutexImpl.cpp.o"
-  "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/System/Unix/SleepImpl.cpp" "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o"
-  "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/System/Unix/ThreadImpl.cpp" "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadImpl.cpp.o"
-  "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/System/Unix/ThreadLocalImpl.cpp" "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadLocalImpl.cpp.o"
+  "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/System/Clock.cpp" "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.o"
+  "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/System/Err.cpp" "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.o"
+  "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/System/FileInputStream.cpp" "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.o"
+  "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/System/Lock.cpp" "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.o"
+  "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/System/MemoryInputStream.cpp" "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.o"
+  "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/System/Mutex.cpp" "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.o"
+  "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/System/Sleep.cpp" "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.o"
+  "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/System/String.cpp" "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o"
+  "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/System/Thread.cpp" "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.o"
+  "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/System/ThreadLocal.cpp" "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.o"
+  "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/System/Time.cpp" "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.o"
+  "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/System/Unix/ClockImpl.cpp" "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ClockImpl.cpp.o"
+  "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/System/Unix/MutexImpl.cpp" "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/MutexImpl.cpp.o"
+  "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/System/Unix/SleepImpl.cpp" "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o"
+  "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/System/Unix/ThreadImpl.cpp" "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadImpl.cpp.o"
+  "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/System/Unix/ThreadLocalImpl.cpp" "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadLocalImpl.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
@@ -37,8 +37,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Pairs of files generated by the same build rule.
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
-  "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/lib/libsfml-system.2.5.dylib" "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/lib/libsfml-system.2.5.1.dylib"
-  "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/lib/libsfml-system.dylib" "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/lib/libsfml-system.2.5.1.dylib"
+  "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/lib/libsfml-system.2.5.dylib" "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/lib/libsfml-system.2.5.1.dylib"
+  "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/lib/libsfml-system.dylib" "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/lib/libsfml-system.2.5.1.dylib"
   )
 
 

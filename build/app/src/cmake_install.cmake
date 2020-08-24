@@ -1,8 +1,8 @@
-# Install script for directory: /Users/nkrutoholo/Desktop/race00/app/src
+# Install script for directory: /Users/dyanchuk/Desktop/race00_cpp/app/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/nkrutoholo/.brew")
+  set(CMAKE_INSTALL_PREFIX "/Users/dyanchuk/.brew")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

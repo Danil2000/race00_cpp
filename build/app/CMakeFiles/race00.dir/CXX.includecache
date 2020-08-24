@@ -676,13 +676,13 @@ SFML/Config.hpp
 
 ../3dparty/sfml/include/SFML/Window/WindowStyle.hpp
 
-/Users/nkrutoholo/Desktop/race00/app/main.cpp
+/Users/dyanchuk/Desktop/race00_cpp/app/main.cpp
 src/game.h
-/Users/nkrutoholo/Desktop/race00/app/src/game.h
+/Users/dyanchuk/Desktop/race00_cpp/app/src/game.h
 SFML/Graphics.hpp
-/Users/nkrutoholo/Desktop/race00/app/SFML/Graphics.hpp
+/Users/dyanchuk/Desktop/race00_cpp/app/SFML/Graphics.hpp
 
-/Users/nkrutoholo/Desktop/race00/app/src/game.h
+/Users/dyanchuk/Desktop/race00_cpp/app/src/game.h
 cstdlib
 -
 iostream

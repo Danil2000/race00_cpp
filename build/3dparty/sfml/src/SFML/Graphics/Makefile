@@ -58,19 +58,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Users/nkrutoholo/.brew/Cellar/cmake/3.18.1/bin/cmake
+CMAKE_COMMAND = /Users/dyanchuk/.brew/Cellar/cmake/3.18.1/bin/cmake
 
 # The command to remove a file.
-RM = /Users/nkrutoholo/.brew/Cellar/cmake/3.18.1/bin/cmake -E rm -f
+RM = /Users/dyanchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/nkrutoholo/Desktop/race00
+CMAKE_SOURCE_DIR = /Users/dyanchuk/Desktop/race00_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/nkrutoholo/Desktop/race00/build
+CMAKE_BINARY_DIR = /Users/dyanchuk/Desktop/race00_cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,37 +78,37 @@ CMAKE_BINARY_DIR = /Users/nkrutoholo/Desktop/race00/build
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/Users/nkrutoholo/.brew/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/Users/dyanchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/Users/nkrutoholo/.brew/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/Users/dyanchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/Users/nkrutoholo/.brew/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/Users/dyanchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/Users/nkrutoholo/.brew/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/Users/dyanchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/Users/nkrutoholo/.brew/Cellar/cmake/3.18.1/bin/cmake -P cmake_install.cmake
+	/Users/dyanchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/Users/nkrutoholo/.brew/Cellar/cmake/3.18.1/bin/cmake -P cmake_install.cmake
+	/Users/dyanchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target list_install_components
@@ -124,7 +124,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Users/nkrutoholo/.brew/Cellar/cmake/3.18.1/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/dyanchuk/.brew/Cellar/cmake/3.18.1/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -135,7 +135,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/Users/nkrutoholo/.brew/Cellar/cmake/3.18.1/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/dyanchuk/.brew/Cellar/cmake/3.18.1/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -145,14 +145,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/nkrutoholo/Desktop/race00/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/nkrutoholo/Desktop/race00/build/CMakeFiles /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Graphics//CMakeFiles/progress.marks
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3dparty/sfml/src/SFML/Graphics/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nkrutoholo/Desktop/race00/build/CMakeFiles 0
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/dyanchuk/Desktop/race00_cpp/build/CMakeFiles /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Graphics//CMakeFiles/progress.marks
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3dparty/sfml/src/SFML/Graphics/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dyanchuk/Desktop/race00_cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3dparty/sfml/src/SFML/Graphics/clean
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3dparty/sfml/src/SFML/Graphics/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,22 +162,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3dparty/sfml/src/SFML/Graphics/preinstall
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3dparty/sfml/src/SFML/Graphics/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3dparty/sfml/src/SFML/Graphics/preinstall
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3dparty/sfml/src/SFML/Graphics/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/rule:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/rule
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/rule
 .PHONY : 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/rule
 
 # Convenience name for target.
@@ -187,7 +187,7 @@ sfml-graphics: 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/rule
 
 # fast build rule for target.
 sfml-graphics/fast:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build
 .PHONY : sfml-graphics/fast
 
 BlendMode.o: BlendMode.cpp.o
@@ -196,7 +196,7 @@ BlendMode.o: BlendMode.cpp.o
 
 # target to build an object file
 BlendMode.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/BlendMode.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/BlendMode.cpp.o
 .PHONY : BlendMode.cpp.o
 
 BlendMode.i: BlendMode.cpp.i
@@ -205,7 +205,7 @@ BlendMode.i: BlendMode.cpp.i
 
 # target to preprocess a source file
 BlendMode.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/BlendMode.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/BlendMode.cpp.i
 .PHONY : BlendMode.cpp.i
 
 BlendMode.s: BlendMode.cpp.s
@@ -214,7 +214,7 @@ BlendMode.s: BlendMode.cpp.s
 
 # target to generate assembly for a file
 BlendMode.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/BlendMode.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/BlendMode.cpp.s
 .PHONY : BlendMode.cpp.s
 
 CircleShape.o: CircleShape.cpp.o
@@ -223,7 +223,7 @@ CircleShape.o: CircleShape.cpp.o
 
 # target to build an object file
 CircleShape.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o
 .PHONY : CircleShape.cpp.o
 
 CircleShape.i: CircleShape.cpp.i
@@ -232,7 +232,7 @@ CircleShape.i: CircleShape.cpp.i
 
 # target to preprocess a source file
 CircleShape.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.i
 .PHONY : CircleShape.cpp.i
 
 CircleShape.s: CircleShape.cpp.s
@@ -241,7 +241,7 @@ CircleShape.s: CircleShape.cpp.s
 
 # target to generate assembly for a file
 CircleShape.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.s
 .PHONY : CircleShape.cpp.s
 
 Color.o: Color.cpp.o
@@ -250,7 +250,7 @@ Color.o: Color.cpp.o
 
 # target to build an object file
 Color.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.o
 .PHONY : Color.cpp.o
 
 Color.i: Color.cpp.i
@@ -259,7 +259,7 @@ Color.i: Color.cpp.i
 
 # target to preprocess a source file
 Color.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.i
 .PHONY : Color.cpp.i
 
 Color.s: Color.cpp.s
@@ -268,7 +268,7 @@ Color.s: Color.cpp.s
 
 # target to generate assembly for a file
 Color.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.s
 .PHONY : Color.cpp.s
 
 ConvexShape.o: ConvexShape.cpp.o
@@ -277,7 +277,7 @@ ConvexShape.o: ConvexShape.cpp.o
 
 # target to build an object file
 ConvexShape.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o
 .PHONY : ConvexShape.cpp.o
 
 ConvexShape.i: ConvexShape.cpp.i
@@ -286,7 +286,7 @@ ConvexShape.i: ConvexShape.cpp.i
 
 # target to preprocess a source file
 ConvexShape.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.i
 .PHONY : ConvexShape.cpp.i
 
 ConvexShape.s: ConvexShape.cpp.s
@@ -295,7 +295,7 @@ ConvexShape.s: ConvexShape.cpp.s
 
 # target to generate assembly for a file
 ConvexShape.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.s
 .PHONY : ConvexShape.cpp.s
 
 Font.o: Font.cpp.o
@@ -304,7 +304,7 @@ Font.o: Font.cpp.o
 
 # target to build an object file
 Font.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.o
 .PHONY : Font.cpp.o
 
 Font.i: Font.cpp.i
@@ -313,7 +313,7 @@ Font.i: Font.cpp.i
 
 # target to preprocess a source file
 Font.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.i
 .PHONY : Font.cpp.i
 
 Font.s: Font.cpp.s
@@ -322,7 +322,7 @@ Font.s: Font.cpp.s
 
 # target to generate assembly for a file
 Font.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.s
 .PHONY : Font.cpp.s
 
 GLCheck.o: GLCheck.cpp.o
@@ -331,7 +331,7 @@ GLCheck.o: GLCheck.cpp.o
 
 # target to build an object file
 GLCheck.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o
 .PHONY : GLCheck.cpp.o
 
 GLCheck.i: GLCheck.cpp.i
@@ -340,7 +340,7 @@ GLCheck.i: GLCheck.cpp.i
 
 # target to preprocess a source file
 GLCheck.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.i
 .PHONY : GLCheck.cpp.i
 
 GLCheck.s: GLCheck.cpp.s
@@ -349,7 +349,7 @@ GLCheck.s: GLCheck.cpp.s
 
 # target to generate assembly for a file
 GLCheck.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.s
 .PHONY : GLCheck.cpp.s
 
 GLExtensions.o: GLExtensions.cpp.o
@@ -358,7 +358,7 @@ GLExtensions.o: GLExtensions.cpp.o
 
 # target to build an object file
 GLExtensions.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.o
 .PHONY : GLExtensions.cpp.o
 
 GLExtensions.i: GLExtensions.cpp.i
@@ -367,7 +367,7 @@ GLExtensions.i: GLExtensions.cpp.i
 
 # target to preprocess a source file
 GLExtensions.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.i
 .PHONY : GLExtensions.cpp.i
 
 GLExtensions.s: GLExtensions.cpp.s
@@ -376,7 +376,7 @@ GLExtensions.s: GLExtensions.cpp.s
 
 # target to generate assembly for a file
 GLExtensions.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.s
 .PHONY : GLExtensions.cpp.s
 
 GLLoader.o: GLLoader.cpp.o
@@ -385,7 +385,7 @@ GLLoader.o: GLLoader.cpp.o
 
 # target to build an object file
 GLLoader.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.o
 .PHONY : GLLoader.cpp.o
 
 GLLoader.i: GLLoader.cpp.i
@@ -394,7 +394,7 @@ GLLoader.i: GLLoader.cpp.i
 
 # target to preprocess a source file
 GLLoader.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.i
 .PHONY : GLLoader.cpp.i
 
 GLLoader.s: GLLoader.cpp.s
@@ -403,7 +403,7 @@ GLLoader.s: GLLoader.cpp.s
 
 # target to generate assembly for a file
 GLLoader.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.s
 .PHONY : GLLoader.cpp.s
 
 Glsl.o: Glsl.cpp.o
@@ -412,7 +412,7 @@ Glsl.o: Glsl.cpp.o
 
 # target to build an object file
 Glsl.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.o
 .PHONY : Glsl.cpp.o
 
 Glsl.i: Glsl.cpp.i
@@ -421,7 +421,7 @@ Glsl.i: Glsl.cpp.i
 
 # target to preprocess a source file
 Glsl.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.i
 .PHONY : Glsl.cpp.i
 
 Glsl.s: Glsl.cpp.s
@@ -430,7 +430,7 @@ Glsl.s: Glsl.cpp.s
 
 # target to generate assembly for a file
 Glsl.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.s
 .PHONY : Glsl.cpp.s
 
 Image.o: Image.cpp.o
@@ -439,7 +439,7 @@ Image.o: Image.cpp.o
 
 # target to build an object file
 Image.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o
 .PHONY : Image.cpp.o
 
 Image.i: Image.cpp.i
@@ -448,7 +448,7 @@ Image.i: Image.cpp.i
 
 # target to preprocess a source file
 Image.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.i
 .PHONY : Image.cpp.i
 
 Image.s: Image.cpp.s
@@ -457,7 +457,7 @@ Image.s: Image.cpp.s
 
 # target to generate assembly for a file
 Image.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.s
 .PHONY : Image.cpp.s
 
 ImageLoader.o: ImageLoader.cpp.o
@@ -466,7 +466,7 @@ ImageLoader.o: ImageLoader.cpp.o
 
 # target to build an object file
 ImageLoader.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.o
 .PHONY : ImageLoader.cpp.o
 
 ImageLoader.i: ImageLoader.cpp.i
@@ -475,7 +475,7 @@ ImageLoader.i: ImageLoader.cpp.i
 
 # target to preprocess a source file
 ImageLoader.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.i
 .PHONY : ImageLoader.cpp.i
 
 ImageLoader.s: ImageLoader.cpp.s
@@ -484,7 +484,7 @@ ImageLoader.s: ImageLoader.cpp.s
 
 # target to generate assembly for a file
 ImageLoader.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.s
 .PHONY : ImageLoader.cpp.s
 
 RectangleShape.o: RectangleShape.cpp.o
@@ -493,7 +493,7 @@ RectangleShape.o: RectangleShape.cpp.o
 
 # target to build an object file
 RectangleShape.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o
 .PHONY : RectangleShape.cpp.o
 
 RectangleShape.i: RectangleShape.cpp.i
@@ -502,7 +502,7 @@ RectangleShape.i: RectangleShape.cpp.i
 
 # target to preprocess a source file
 RectangleShape.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.i
 .PHONY : RectangleShape.cpp.i
 
 RectangleShape.s: RectangleShape.cpp.s
@@ -511,7 +511,7 @@ RectangleShape.s: RectangleShape.cpp.s
 
 # target to generate assembly for a file
 RectangleShape.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.s
 .PHONY : RectangleShape.cpp.s
 
 RenderStates.o: RenderStates.cpp.o
@@ -520,7 +520,7 @@ RenderStates.o: RenderStates.cpp.o
 
 # target to build an object file
 RenderStates.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.o
 .PHONY : RenderStates.cpp.o
 
 RenderStates.i: RenderStates.cpp.i
@@ -529,7 +529,7 @@ RenderStates.i: RenderStates.cpp.i
 
 # target to preprocess a source file
 RenderStates.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.i
 .PHONY : RenderStates.cpp.i
 
 RenderStates.s: RenderStates.cpp.s
@@ -538,7 +538,7 @@ RenderStates.s: RenderStates.cpp.s
 
 # target to generate assembly for a file
 RenderStates.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.s
 .PHONY : RenderStates.cpp.s
 
 RenderTarget.o: RenderTarget.cpp.o
@@ -547,7 +547,7 @@ RenderTarget.o: RenderTarget.cpp.o
 
 # target to build an object file
 RenderTarget.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.o
 .PHONY : RenderTarget.cpp.o
 
 RenderTarget.i: RenderTarget.cpp.i
@@ -556,7 +556,7 @@ RenderTarget.i: RenderTarget.cpp.i
 
 # target to preprocess a source file
 RenderTarget.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.i
 .PHONY : RenderTarget.cpp.i
 
 RenderTarget.s: RenderTarget.cpp.s
@@ -565,7 +565,7 @@ RenderTarget.s: RenderTarget.cpp.s
 
 # target to generate assembly for a file
 RenderTarget.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.s
 .PHONY : RenderTarget.cpp.s
 
 RenderTexture.o: RenderTexture.cpp.o
@@ -574,7 +574,7 @@ RenderTexture.o: RenderTexture.cpp.o
 
 # target to build an object file
 RenderTexture.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o
 .PHONY : RenderTexture.cpp.o
 
 RenderTexture.i: RenderTexture.cpp.i
@@ -583,7 +583,7 @@ RenderTexture.i: RenderTexture.cpp.i
 
 # target to preprocess a source file
 RenderTexture.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.i
 .PHONY : RenderTexture.cpp.i
 
 RenderTexture.s: RenderTexture.cpp.s
@@ -592,7 +592,7 @@ RenderTexture.s: RenderTexture.cpp.s
 
 # target to generate assembly for a file
 RenderTexture.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.s
 .PHONY : RenderTexture.cpp.s
 
 RenderTextureImpl.o: RenderTextureImpl.cpp.o
@@ -601,7 +601,7 @@ RenderTextureImpl.o: RenderTextureImpl.cpp.o
 
 # target to build an object file
 RenderTextureImpl.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o
 .PHONY : RenderTextureImpl.cpp.o
 
 RenderTextureImpl.i: RenderTextureImpl.cpp.i
@@ -610,7 +610,7 @@ RenderTextureImpl.i: RenderTextureImpl.cpp.i
 
 # target to preprocess a source file
 RenderTextureImpl.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.i
 .PHONY : RenderTextureImpl.cpp.i
 
 RenderTextureImpl.s: RenderTextureImpl.cpp.s
@@ -619,7 +619,7 @@ RenderTextureImpl.s: RenderTextureImpl.cpp.s
 
 # target to generate assembly for a file
 RenderTextureImpl.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.s
 .PHONY : RenderTextureImpl.cpp.s
 
 RenderTextureImplDefault.o: RenderTextureImplDefault.cpp.o
@@ -628,7 +628,7 @@ RenderTextureImplDefault.o: RenderTextureImplDefault.cpp.o
 
 # target to build an object file
 RenderTextureImplDefault.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o
 .PHONY : RenderTextureImplDefault.cpp.o
 
 RenderTextureImplDefault.i: RenderTextureImplDefault.cpp.i
@@ -637,7 +637,7 @@ RenderTextureImplDefault.i: RenderTextureImplDefault.cpp.i
 
 # target to preprocess a source file
 RenderTextureImplDefault.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.i
 .PHONY : RenderTextureImplDefault.cpp.i
 
 RenderTextureImplDefault.s: RenderTextureImplDefault.cpp.s
@@ -646,7 +646,7 @@ RenderTextureImplDefault.s: RenderTextureImplDefault.cpp.s
 
 # target to generate assembly for a file
 RenderTextureImplDefault.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.s
 .PHONY : RenderTextureImplDefault.cpp.s
 
 RenderTextureImplFBO.o: RenderTextureImplFBO.cpp.o
@@ -655,7 +655,7 @@ RenderTextureImplFBO.o: RenderTextureImplFBO.cpp.o
 
 # target to build an object file
 RenderTextureImplFBO.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o
 .PHONY : RenderTextureImplFBO.cpp.o
 
 RenderTextureImplFBO.i: RenderTextureImplFBO.cpp.i
@@ -664,7 +664,7 @@ RenderTextureImplFBO.i: RenderTextureImplFBO.cpp.i
 
 # target to preprocess a source file
 RenderTextureImplFBO.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.i
 .PHONY : RenderTextureImplFBO.cpp.i
 
 RenderTextureImplFBO.s: RenderTextureImplFBO.cpp.s
@@ -673,7 +673,7 @@ RenderTextureImplFBO.s: RenderTextureImplFBO.cpp.s
 
 # target to generate assembly for a file
 RenderTextureImplFBO.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.s
 .PHONY : RenderTextureImplFBO.cpp.s
 
 RenderWindow.o: RenderWindow.cpp.o
@@ -682,7 +682,7 @@ RenderWindow.o: RenderWindow.cpp.o
 
 # target to build an object file
 RenderWindow.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o
 .PHONY : RenderWindow.cpp.o
 
 RenderWindow.i: RenderWindow.cpp.i
@@ -691,7 +691,7 @@ RenderWindow.i: RenderWindow.cpp.i
 
 # target to preprocess a source file
 RenderWindow.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.i
 .PHONY : RenderWindow.cpp.i
 
 RenderWindow.s: RenderWindow.cpp.s
@@ -700,7 +700,7 @@ RenderWindow.s: RenderWindow.cpp.s
 
 # target to generate assembly for a file
 RenderWindow.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.s
 .PHONY : RenderWindow.cpp.s
 
 Shader.o: Shader.cpp.o
@@ -709,7 +709,7 @@ Shader.o: Shader.cpp.o
 
 # target to build an object file
 Shader.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.o
 .PHONY : Shader.cpp.o
 
 Shader.i: Shader.cpp.i
@@ -718,7 +718,7 @@ Shader.i: Shader.cpp.i
 
 # target to preprocess a source file
 Shader.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.i
 .PHONY : Shader.cpp.i
 
 Shader.s: Shader.cpp.s
@@ -727,7 +727,7 @@ Shader.s: Shader.cpp.s
 
 # target to generate assembly for a file
 Shader.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.s
 .PHONY : Shader.cpp.s
 
 Shape.o: Shape.cpp.o
@@ -736,7 +736,7 @@ Shape.o: Shape.cpp.o
 
 # target to build an object file
 Shape.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.o
 .PHONY : Shape.cpp.o
 
 Shape.i: Shape.cpp.i
@@ -745,7 +745,7 @@ Shape.i: Shape.cpp.i
 
 # target to preprocess a source file
 Shape.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.i
 .PHONY : Shape.cpp.i
 
 Shape.s: Shape.cpp.s
@@ -754,7 +754,7 @@ Shape.s: Shape.cpp.s
 
 # target to generate assembly for a file
 Shape.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.s
 .PHONY : Shape.cpp.s
 
 Sprite.o: Sprite.cpp.o
@@ -763,7 +763,7 @@ Sprite.o: Sprite.cpp.o
 
 # target to build an object file
 Sprite.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.o
 .PHONY : Sprite.cpp.o
 
 Sprite.i: Sprite.cpp.i
@@ -772,7 +772,7 @@ Sprite.i: Sprite.cpp.i
 
 # target to preprocess a source file
 Sprite.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.i
 .PHONY : Sprite.cpp.i
 
 Sprite.s: Sprite.cpp.s
@@ -781,7 +781,7 @@ Sprite.s: Sprite.cpp.s
 
 # target to generate assembly for a file
 Sprite.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.s
 .PHONY : Sprite.cpp.s
 
 Text.o: Text.cpp.o
@@ -790,7 +790,7 @@ Text.o: Text.cpp.o
 
 # target to build an object file
 Text.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.o
 .PHONY : Text.cpp.o
 
 Text.i: Text.cpp.i
@@ -799,7 +799,7 @@ Text.i: Text.cpp.i
 
 # target to preprocess a source file
 Text.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.i
 .PHONY : Text.cpp.i
 
 Text.s: Text.cpp.s
@@ -808,7 +808,7 @@ Text.s: Text.cpp.s
 
 # target to generate assembly for a file
 Text.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.s
 .PHONY : Text.cpp.s
 
 Texture.o: Texture.cpp.o
@@ -817,7 +817,7 @@ Texture.o: Texture.cpp.o
 
 # target to build an object file
 Texture.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.o
 .PHONY : Texture.cpp.o
 
 Texture.i: Texture.cpp.i
@@ -826,7 +826,7 @@ Texture.i: Texture.cpp.i
 
 # target to preprocess a source file
 Texture.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.i
 .PHONY : Texture.cpp.i
 
 Texture.s: Texture.cpp.s
@@ -835,7 +835,7 @@ Texture.s: Texture.cpp.s
 
 # target to generate assembly for a file
 Texture.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.s
 .PHONY : Texture.cpp.s
 
 TextureSaver.o: TextureSaver.cpp.o
@@ -844,7 +844,7 @@ TextureSaver.o: TextureSaver.cpp.o
 
 # target to build an object file
 TextureSaver.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o
 .PHONY : TextureSaver.cpp.o
 
 TextureSaver.i: TextureSaver.cpp.i
@@ -853,7 +853,7 @@ TextureSaver.i: TextureSaver.cpp.i
 
 # target to preprocess a source file
 TextureSaver.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.i
 .PHONY : TextureSaver.cpp.i
 
 TextureSaver.s: TextureSaver.cpp.s
@@ -862,7 +862,7 @@ TextureSaver.s: TextureSaver.cpp.s
 
 # target to generate assembly for a file
 TextureSaver.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.s
 .PHONY : TextureSaver.cpp.s
 
 Transform.o: Transform.cpp.o
@@ -871,7 +871,7 @@ Transform.o: Transform.cpp.o
 
 # target to build an object file
 Transform.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.o
 .PHONY : Transform.cpp.o
 
 Transform.i: Transform.cpp.i
@@ -880,7 +880,7 @@ Transform.i: Transform.cpp.i
 
 # target to preprocess a source file
 Transform.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.i
 .PHONY : Transform.cpp.i
 
 Transform.s: Transform.cpp.s
@@ -889,7 +889,7 @@ Transform.s: Transform.cpp.s
 
 # target to generate assembly for a file
 Transform.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.s
 .PHONY : Transform.cpp.s
 
 Transformable.o: Transformable.cpp.o
@@ -898,7 +898,7 @@ Transformable.o: Transformable.cpp.o
 
 # target to build an object file
 Transformable.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.o
 .PHONY : Transformable.cpp.o
 
 Transformable.i: Transformable.cpp.i
@@ -907,7 +907,7 @@ Transformable.i: Transformable.cpp.i
 
 # target to preprocess a source file
 Transformable.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.i
 .PHONY : Transformable.cpp.i
 
 Transformable.s: Transformable.cpp.s
@@ -916,7 +916,7 @@ Transformable.s: Transformable.cpp.s
 
 # target to generate assembly for a file
 Transformable.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.s
 .PHONY : Transformable.cpp.s
 
 Vertex.o: Vertex.cpp.o
@@ -925,7 +925,7 @@ Vertex.o: Vertex.cpp.o
 
 # target to build an object file
 Vertex.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.o
 .PHONY : Vertex.cpp.o
 
 Vertex.i: Vertex.cpp.i
@@ -934,7 +934,7 @@ Vertex.i: Vertex.cpp.i
 
 # target to preprocess a source file
 Vertex.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.i
 .PHONY : Vertex.cpp.i
 
 Vertex.s: Vertex.cpp.s
@@ -943,7 +943,7 @@ Vertex.s: Vertex.cpp.s
 
 # target to generate assembly for a file
 Vertex.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.s
 .PHONY : Vertex.cpp.s
 
 VertexArray.o: VertexArray.cpp.o
@@ -952,7 +952,7 @@ VertexArray.o: VertexArray.cpp.o
 
 # target to build an object file
 VertexArray.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o
 .PHONY : VertexArray.cpp.o
 
 VertexArray.i: VertexArray.cpp.i
@@ -961,7 +961,7 @@ VertexArray.i: VertexArray.cpp.i
 
 # target to preprocess a source file
 VertexArray.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.i
 .PHONY : VertexArray.cpp.i
 
 VertexArray.s: VertexArray.cpp.s
@@ -970,7 +970,7 @@ VertexArray.s: VertexArray.cpp.s
 
 # target to generate assembly for a file
 VertexArray.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.s
 .PHONY : VertexArray.cpp.s
 
 VertexBuffer.o: VertexBuffer.cpp.o
@@ -979,7 +979,7 @@ VertexBuffer.o: VertexBuffer.cpp.o
 
 # target to build an object file
 VertexBuffer.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.o
 .PHONY : VertexBuffer.cpp.o
 
 VertexBuffer.i: VertexBuffer.cpp.i
@@ -988,7 +988,7 @@ VertexBuffer.i: VertexBuffer.cpp.i
 
 # target to preprocess a source file
 VertexBuffer.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.i
 .PHONY : VertexBuffer.cpp.i
 
 VertexBuffer.s: VertexBuffer.cpp.s
@@ -997,7 +997,7 @@ VertexBuffer.s: VertexBuffer.cpp.s
 
 # target to generate assembly for a file
 VertexBuffer.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.s
 .PHONY : VertexBuffer.cpp.s
 
 View.o: View.cpp.o
@@ -1006,7 +1006,7 @@ View.o: View.cpp.o
 
 # target to build an object file
 View.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.o
 .PHONY : View.cpp.o
 
 View.i: View.cpp.i
@@ -1015,7 +1015,7 @@ View.i: View.cpp.i
 
 # target to preprocess a source file
 View.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.i
 .PHONY : View.cpp.i
 
 View.s: View.cpp.s
@@ -1024,7 +1024,7 @@ View.s: View.cpp.s
 
 # target to generate assembly for a file
 View.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make 3dparty/sfml/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.s
 .PHONY : View.cpp.s
 
 # Help Target
@@ -1144,6 +1144,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

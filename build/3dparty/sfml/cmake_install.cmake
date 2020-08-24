@@ -1,8 +1,8 @@
-# Install script for directory: /Users/nkrutoholo/Desktop/race00/3dparty/sfml
+# Install script for directory: /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/nkrutoholo/.brew")
+  set(CMAKE_INSTALL_PREFIX "/Users/dyanchuk/.brew")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/include" FILES_MATCHING REGEX "/[^/]*\\.hpp$" REGEX "/[^/]*\\.inl$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/include" FILES_MATCHING REGEX "/[^/]*\\.hpp$" REGEX "/[^/]*\\.inl$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -50,7 +50,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/share/SFML" TYPE FILE FILES "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/license.md")
+file(INSTALL DESTINATION "/usr/local/share/SFML" TYPE FILE FILES "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/license.md")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -62,7 +62,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/share/SFML" TYPE FILE FILES "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/readme.md")
+file(INSTALL DESTINATION "/usr/local/share/SFML" TYPE FILE FILES "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/readme.md")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -74,7 +74,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/Library/Frameworks" TYPE DIRECTORY FILES "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/extlibs/libs-osx/Frameworks/freetype.framework")
+file(INSTALL DESTINATION "/Library/Frameworks" TYPE DIRECTORY FILES "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/extlibs/libs-osx/Frameworks/freetype.framework")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -86,7 +86,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/Library/Frameworks" TYPE DIRECTORY FILES "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/extlibs/libs-osx/Frameworks/FLAC.framework")
+file(INSTALL DESTINATION "/Library/Frameworks" TYPE DIRECTORY FILES "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/extlibs/libs-osx/Frameworks/FLAC.framework")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -98,7 +98,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/Library/Frameworks" TYPE DIRECTORY FILES "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/extlibs/libs-osx/Frameworks/ogg.framework")
+file(INSTALL DESTINATION "/Library/Frameworks" TYPE DIRECTORY FILES "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/extlibs/libs-osx/Frameworks/ogg.framework")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -110,7 +110,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/Library/Frameworks" TYPE DIRECTORY FILES "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/extlibs/libs-osx/Frameworks/vorbis.framework")
+file(INSTALL DESTINATION "/Library/Frameworks" TYPE DIRECTORY FILES "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/extlibs/libs-osx/Frameworks/vorbis.framework")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -122,7 +122,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/Library/Frameworks" TYPE DIRECTORY FILES "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/extlibs/libs-osx/Frameworks/vorbisenc.framework")
+file(INSTALL DESTINATION "/Library/Frameworks" TYPE DIRECTORY FILES "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/extlibs/libs-osx/Frameworks/vorbisenc.framework")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -134,7 +134,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/Library/Frameworks" TYPE DIRECTORY FILES "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/extlibs/libs-osx/Frameworks/vorbisfile.framework")
+file(INSTALL DESTINATION "/Library/Frameworks" TYPE DIRECTORY FILES "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/extlibs/libs-osx/Frameworks/vorbisfile.framework")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -146,14 +146,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/Library/Frameworks" TYPE DIRECTORY FILES "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/extlibs/libs-osx/Frameworks/OpenAL.framework")
+file(INSTALL DESTINATION "/Library/Frameworks" TYPE DIRECTORY FILES "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/extlibs/libs-osx/Frameworks/OpenAL.framework")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML/SFMLSharedTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML/SFMLSharedTargets.cmake"
-         "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/CMakeFiles/Export/lib/cmake/SFML/SFMLSharedTargets.cmake")
+         "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/CMakeFiles/Export/lib/cmake/SFML/SFMLSharedTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML/SFMLSharedTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -162,23 +162,23 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/CMakeFiles/Export/lib/cmake/SFML/SFMLSharedTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/CMakeFiles/Export/lib/cmake/SFML/SFMLSharedTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/CMakeFiles/Export/lib/cmake/SFML/SFMLSharedTargets-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/CMakeFiles/Export/lib/cmake/SFML/SFMLSharedTargets-noconfig.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES
-    "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/SFMLConfig.cmake"
-    "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/SFMLConfigDependencies.cmake"
-    "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/SFMLConfigVersion.cmake"
+    "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/SFMLConfig.cmake"
+    "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/SFMLConfigDependencies.cmake"
+    "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/SFMLConfigVersion.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/cmake_install.cmake")
+  include("/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/cmake_install.cmake")
 
 endif()
 

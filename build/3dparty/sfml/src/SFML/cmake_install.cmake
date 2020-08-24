@@ -1,8 +1,8 @@
-# Install script for directory: /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML
+# Install script for directory: /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/nkrutoholo/.brew")
+  set(CMAKE_INSTALL_PREFIX "/Users/dyanchuk/.brew")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/System/cmake_install.cmake")
-  include("/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Window/cmake_install.cmake")
-  include("/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network/cmake_install.cmake")
-  include("/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Graphics/cmake_install.cmake")
-  include("/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Audio/cmake_install.cmake")
+  include("/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/System/cmake_install.cmake")
+  include("/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Window/cmake_install.cmake")
+  include("/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network/cmake_install.cmake")
+  include("/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Graphics/cmake_install.cmake")
+  include("/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Audio/cmake_install.cmake")
 
 endif()
 

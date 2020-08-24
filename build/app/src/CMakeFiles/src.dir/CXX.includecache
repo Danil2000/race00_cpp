@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/nkrutoholo/Desktop/race00/app/src/Game.cpp
+/Users/dyanchuk/Desktop/race00_cpp/app/src/Game.cpp
 game.h
-/Users/nkrutoholo/Desktop/race00/app/src/game.h
+/Users/dyanchuk/Desktop/race00_cpp/app/src/game.h
 
-/Users/nkrutoholo/Desktop/race00/app/src/game.h
+/Users/dyanchuk/Desktop/race00_cpp/app/src/game.h
 cstdlib
 -
 iostream

@@ -53,19 +53,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Users/nkrutoholo/.brew/Cellar/cmake/3.18.1/bin/cmake
+CMAKE_COMMAND = /Users/dyanchuk/.brew/Cellar/cmake/3.18.1/bin/cmake
 
 # The command to remove a file.
-RM = /Users/nkrutoholo/.brew/Cellar/cmake/3.18.1/bin/cmake -E rm -f
+RM = /Users/dyanchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/nkrutoholo/Desktop/race00
+CMAKE_SOURCE_DIR = /Users/dyanchuk/Desktop/race00_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/nkrutoholo/Desktop/race00/build
+CMAKE_BINARY_DIR = /Users/dyanchuk/Desktop/race00_cpp/build
 
 # Include any dependencies generated for this target.
 include 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/depend.make
@@ -78,133 +78,133 @@ include 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/flags.make
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.o: 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/flags.make
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.o: ../3dparty/sfml/src/SFML/Network/Ftp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nkrutoholo/Desktop/race00/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.o"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-network.dir/Ftp.cpp.o -c /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/Ftp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dyanchuk/Desktop/race00_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.o"
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-network.dir/Ftp.cpp.o -c /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/Ftp.cpp
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-network.dir/Ftp.cpp.i"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/Ftp.cpp > CMakeFiles/sfml-network.dir/Ftp.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/Ftp.cpp > CMakeFiles/sfml-network.dir/Ftp.cpp.i
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-network.dir/Ftp.cpp.s"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/Ftp.cpp -o CMakeFiles/sfml-network.dir/Ftp.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/Ftp.cpp -o CMakeFiles/sfml-network.dir/Ftp.cpp.s
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.o: 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/flags.make
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.o: ../3dparty/sfml/src/SFML/Network/Http.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nkrutoholo/Desktop/race00/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.o"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-network.dir/Http.cpp.o -c /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/Http.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dyanchuk/Desktop/race00_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.o"
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-network.dir/Http.cpp.o -c /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/Http.cpp
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-network.dir/Http.cpp.i"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/Http.cpp > CMakeFiles/sfml-network.dir/Http.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/Http.cpp > CMakeFiles/sfml-network.dir/Http.cpp.i
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-network.dir/Http.cpp.s"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/Http.cpp -o CMakeFiles/sfml-network.dir/Http.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/Http.cpp -o CMakeFiles/sfml-network.dir/Http.cpp.s
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.o: 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/flags.make
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.o: ../3dparty/sfml/src/SFML/Network/IpAddress.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nkrutoholo/Desktop/race00/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.o"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-network.dir/IpAddress.cpp.o -c /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/IpAddress.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dyanchuk/Desktop/race00_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.o"
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-network.dir/IpAddress.cpp.o -c /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/IpAddress.cpp
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-network.dir/IpAddress.cpp.i"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/IpAddress.cpp > CMakeFiles/sfml-network.dir/IpAddress.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/IpAddress.cpp > CMakeFiles/sfml-network.dir/IpAddress.cpp.i
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-network.dir/IpAddress.cpp.s"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/IpAddress.cpp -o CMakeFiles/sfml-network.dir/IpAddress.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/IpAddress.cpp -o CMakeFiles/sfml-network.dir/IpAddress.cpp.s
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.o: 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/flags.make
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.o: ../3dparty/sfml/src/SFML/Network/Packet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nkrutoholo/Desktop/race00/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.o"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-network.dir/Packet.cpp.o -c /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/Packet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dyanchuk/Desktop/race00_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.o"
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-network.dir/Packet.cpp.o -c /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/Packet.cpp
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-network.dir/Packet.cpp.i"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/Packet.cpp > CMakeFiles/sfml-network.dir/Packet.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/Packet.cpp > CMakeFiles/sfml-network.dir/Packet.cpp.i
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-network.dir/Packet.cpp.s"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/Packet.cpp -o CMakeFiles/sfml-network.dir/Packet.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/Packet.cpp -o CMakeFiles/sfml-network.dir/Packet.cpp.s
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.o: 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/flags.make
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.o: ../3dparty/sfml/src/SFML/Network/Socket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nkrutoholo/Desktop/race00/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.o"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-network.dir/Socket.cpp.o -c /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/Socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dyanchuk/Desktop/race00_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.o"
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-network.dir/Socket.cpp.o -c /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/Socket.cpp
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-network.dir/Socket.cpp.i"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/Socket.cpp > CMakeFiles/sfml-network.dir/Socket.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/Socket.cpp > CMakeFiles/sfml-network.dir/Socket.cpp.i
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-network.dir/Socket.cpp.s"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/Socket.cpp -o CMakeFiles/sfml-network.dir/Socket.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/Socket.cpp -o CMakeFiles/sfml-network.dir/Socket.cpp.s
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.o: 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/flags.make
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.o: ../3dparty/sfml/src/SFML/Network/SocketSelector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nkrutoholo/Desktop/race00/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.o"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-network.dir/SocketSelector.cpp.o -c /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/SocketSelector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dyanchuk/Desktop/race00_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.o"
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-network.dir/SocketSelector.cpp.o -c /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/SocketSelector.cpp
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-network.dir/SocketSelector.cpp.i"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/SocketSelector.cpp > CMakeFiles/sfml-network.dir/SocketSelector.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/SocketSelector.cpp > CMakeFiles/sfml-network.dir/SocketSelector.cpp.i
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-network.dir/SocketSelector.cpp.s"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/SocketSelector.cpp -o CMakeFiles/sfml-network.dir/SocketSelector.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/SocketSelector.cpp -o CMakeFiles/sfml-network.dir/SocketSelector.cpp.s
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.o: 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/flags.make
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.o: ../3dparty/sfml/src/SFML/Network/TcpListener.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nkrutoholo/Desktop/race00/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.o"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-network.dir/TcpListener.cpp.o -c /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/TcpListener.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dyanchuk/Desktop/race00_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.o"
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-network.dir/TcpListener.cpp.o -c /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/TcpListener.cpp
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-network.dir/TcpListener.cpp.i"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/TcpListener.cpp > CMakeFiles/sfml-network.dir/TcpListener.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/TcpListener.cpp > CMakeFiles/sfml-network.dir/TcpListener.cpp.i
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-network.dir/TcpListener.cpp.s"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/TcpListener.cpp -o CMakeFiles/sfml-network.dir/TcpListener.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/TcpListener.cpp -o CMakeFiles/sfml-network.dir/TcpListener.cpp.s
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.o: 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/flags.make
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.o: ../3dparty/sfml/src/SFML/Network/TcpSocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nkrutoholo/Desktop/race00/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.o"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-network.dir/TcpSocket.cpp.o -c /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/TcpSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dyanchuk/Desktop/race00_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.o"
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-network.dir/TcpSocket.cpp.o -c /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/TcpSocket.cpp
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-network.dir/TcpSocket.cpp.i"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/TcpSocket.cpp > CMakeFiles/sfml-network.dir/TcpSocket.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/TcpSocket.cpp > CMakeFiles/sfml-network.dir/TcpSocket.cpp.i
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-network.dir/TcpSocket.cpp.s"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/TcpSocket.cpp -o CMakeFiles/sfml-network.dir/TcpSocket.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/TcpSocket.cpp -o CMakeFiles/sfml-network.dir/TcpSocket.cpp.s
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.o: 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/flags.make
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.o: ../3dparty/sfml/src/SFML/Network/UdpSocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nkrutoholo/Desktop/race00/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.o"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-network.dir/UdpSocket.cpp.o -c /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/UdpSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dyanchuk/Desktop/race00_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.o"
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-network.dir/UdpSocket.cpp.o -c /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/UdpSocket.cpp
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-network.dir/UdpSocket.cpp.i"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/UdpSocket.cpp > CMakeFiles/sfml-network.dir/UdpSocket.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/UdpSocket.cpp > CMakeFiles/sfml-network.dir/UdpSocket.cpp.i
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-network.dir/UdpSocket.cpp.s"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/UdpSocket.cpp -o CMakeFiles/sfml-network.dir/UdpSocket.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/UdpSocket.cpp -o CMakeFiles/sfml-network.dir/UdpSocket.cpp.s
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.o: 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/flags.make
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.o: ../3dparty/sfml/src/SFML/Network/Unix/SocketImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nkrutoholo/Desktop/race00/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.o"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.o -c /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/Unix/SocketImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dyanchuk/Desktop/race00_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.o"
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.o -c /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/Unix/SocketImpl.cpp
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.i"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/Unix/SocketImpl.cpp > CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/Unix/SocketImpl.cpp > CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.i
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.s"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network/Unix/SocketImpl.cpp -o CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network/Unix/SocketImpl.cpp -o CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.s
 
 # Object files for target sfml-network
 sfml__network_OBJECTS = \
@@ -235,9 +235,9 @@ sfml__network_EXTERNAL_OBJECTS =
 3dparty/sfml/lib/libsfml-network.2.5.1.dylib: 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make
 3dparty/sfml/lib/libsfml-network.2.5.1.dylib: 3dparty/sfml/lib/libsfml-system.2.5.1.dylib
 3dparty/sfml/lib/libsfml-network.2.5.1.dylib: 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/nkrutoholo/Desktop/race00/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX shared library ../../../lib/libsfml-network.dylib"
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sfml-network.dir/link.txt --verbose=$(VERBOSE)
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../lib/libsfml-network.2.5.1.dylib ../../../lib/libsfml-network.2.5.dylib ../../../lib/libsfml-network.dylib
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dyanchuk/Desktop/race00_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX shared library ../../../lib/libsfml-network.dylib"
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sfml-network.dir/link.txt --verbose=$(VERBOSE)
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && $(CMAKE_COMMAND) -E cmake_symlink_library ../../../lib/libsfml-network.2.5.1.dylib ../../../lib/libsfml-network.2.5.dylib ../../../lib/libsfml-network.dylib
 
 3dparty/sfml/lib/libsfml-network.2.5.dylib: 3dparty/sfml/lib/libsfml-network.2.5.1.dylib
 	@$(CMAKE_COMMAND) -E touch_nocreate 3dparty/sfml/lib/libsfml-network.2.5.dylib
@@ -251,10 +251,10 @@ sfml__network_EXTERNAL_OBJECTS =
 .PHONY : 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/build
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/clean:
-	cd /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network && $(CMAKE_COMMAND) -P CMakeFiles/sfml-network.dir/cmake_clean.cmake
+	cd /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network && $(CMAKE_COMMAND) -P CMakeFiles/sfml-network.dir/cmake_clean.cmake
 .PHONY : 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/clean
 
 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/depend:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/nkrutoholo/Desktop/race00 /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Network /Users/nkrutoholo/Desktop/race00/build /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network /Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/dyanchuk/Desktop/race00_cpp /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Network /Users/dyanchuk/Desktop/race00_cpp/build /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network /Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : 3dparty/sfml/src/SFML/Network/CMakeFiles/sfml-network.dir/depend
 

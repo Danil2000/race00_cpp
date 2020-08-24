@@ -3,16 +3,16 @@
 
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/OSX/SFApplication.m.o
  ../3dparty/sfml/src/SFML/Window/OSX/SFApplication.h
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/SFApplication.m
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/SFApplication.m
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/OSX/SFApplicationDelegate.m.o
  ../3dparty/sfml/src/SFML/Window/OSX/SFApplicationDelegate.h
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/SFApplicationDelegate.m
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/SFApplicationDelegate.m
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/OSX/SFSilentResponder.m.o
  ../3dparty/sfml/src/SFML/Window/OSX/SFSilentResponder.h
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/SFSilentResponder.m
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/SFSilentResponder.m
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/OSX/SFWindow.m.o
  ../3dparty/sfml/src/SFML/Window/OSX/SFWindow.h
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/SFWindow.m
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/SFWindow.m
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/Clipboard.cpp.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Export.hpp
@@ -28,7 +28,7 @@
  ../3dparty/sfml/src/SFML/Window/Unix/ClipboardImpl.hpp
  ../3dparty/sfml/src/SFML/Window/Win32/ClipboardImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/ClipboardImpl.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/Clipboard.cpp
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/Clipboard.cpp
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Export.hpp
@@ -41,7 +41,7 @@
  ../3dparty/sfml/include/SFML/Window/Export.hpp
  ../3dparty/sfml/include/SFML/Window/GlResource.hpp
  ../3dparty/sfml/src/SFML/Window/GlContext.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/Context.cpp
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/Context.cpp
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Export.hpp
@@ -57,7 +57,7 @@
  ../3dparty/sfml/src/SFML/Window/Unix/CursorImpl.hpp
  ../3dparty/sfml/src/SFML/Window/Win32/CursorImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/CursorImpl.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/Cursor.cpp
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/Cursor.cpp
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/OpenGL.hpp
@@ -88,7 +88,7 @@
  ../3dparty/sfml/src/SFML/Window/Win32/WglExtensions.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/EaglContext.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/ObjCType.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/GlContext.cpp
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/GlContext.cpp
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Export.hpp
@@ -98,7 +98,7 @@
  ../3dparty/sfml/include/SFML/Window/Export.hpp
  ../3dparty/sfml/include/SFML/Window/GlResource.hpp
  ../3dparty/sfml/src/SFML/Window/GlContext.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/GlResource.cpp
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/GlResource.cpp
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Export.hpp
@@ -118,7 +118,7 @@
  ../3dparty/sfml/src/SFML/Window/Unix/JoystickImpl.hpp
  ../3dparty/sfml/src/SFML/Window/Win32/JoystickImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/JoystickImpl.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/Joystick.cpp
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/Joystick.cpp
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Export.hpp
@@ -138,7 +138,7 @@
  ../3dparty/sfml/src/SFML/Window/Unix/JoystickImpl.hpp
  ../3dparty/sfml/src/SFML/Window/Win32/JoystickImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/JoystickImpl.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/JoystickManager.cpp
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/JoystickManager.cpp
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Vector2.hpp
@@ -152,7 +152,7 @@
  ../3dparty/sfml/src/SFML/Window/Unix/InputImpl.hpp
  ../3dparty/sfml/src/SFML/Window/Win32/InputImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/InputImpl.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/Keyboard.cpp
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/Keyboard.cpp
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Clock.hpp
@@ -181,10 +181,10 @@
  ../3dparty/sfml/src/SFML/Window/Unix/InputImpl.hpp
  ../3dparty/sfml/src/SFML/Window/Win32/InputImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/InputImpl.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/Mouse.cpp
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/Mouse.cpp
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/OSX/AutoreleasePoolWrapper.mm.o
  ../3dparty/sfml/src/SFML/Window/OSX/AutoreleasePoolWrapper.h
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/AutoreleasePoolWrapper.mm
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/AutoreleasePoolWrapper.mm
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/OSX/ClipboardImpl.mm.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Export.hpp
@@ -193,7 +193,7 @@
  ../3dparty/sfml/include/SFML/System/Utf.hpp
  ../3dparty/sfml/include/SFML/System/Utf.inl
  ../3dparty/sfml/src/SFML/Window/OSX/ClipboardImpl.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/ClipboardImpl.mm
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/ClipboardImpl.mm
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/OSX/CursorImpl.mm.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Export.hpp
@@ -205,7 +205,7 @@
  ../3dparty/sfml/src/SFML/Window/OSX/AutoreleasePoolWrapper.h
  ../3dparty/sfml/src/SFML/Window/OSX/CursorImpl.hpp
  ../3dparty/sfml/src/SFML/Window/OSX/NSImage+raw.h
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/CursorImpl.mm
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/CursorImpl.mm
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/OSX/HIDInputManager.mm.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Err.hpp
@@ -227,7 +227,7 @@
  ../3dparty/sfml/src/SFML/Window/Unix/JoystickImpl.hpp
  ../3dparty/sfml/src/SFML/Window/Win32/JoystickImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/JoystickImpl.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/HIDInputManager.mm
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/HIDInputManager.mm
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/OSX/HIDJoystickManager.cpp.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Export.hpp
@@ -249,7 +249,7 @@
  ../3dparty/sfml/src/SFML/Window/Unix/JoystickImpl.hpp
  ../3dparty/sfml/src/SFML/Window/Win32/JoystickImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/JoystickImpl.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/HIDJoystickManager.cpp
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/HIDJoystickManager.cpp
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/OSX/InputImpl.mm.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Clock.hpp
@@ -285,7 +285,7 @@
  ../3dparty/sfml/src/SFML/Window/Unix/JoystickImpl.hpp
  ../3dparty/sfml/src/SFML/Window/Win32/JoystickImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/JoystickImpl.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/InputImpl.mm
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/InputImpl.mm
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/OSX/JoystickImpl.cpp.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Err.hpp
@@ -308,11 +308,11 @@
  ../3dparty/sfml/src/SFML/Window/Unix/JoystickImpl.hpp
  ../3dparty/sfml/src/SFML/Window/Win32/JoystickImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/JoystickImpl.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/JoystickImpl.cpp
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/JoystickImpl.cpp
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/OSX/NSImage+raw.mm.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/src/SFML/Window/OSX/NSImage+raw.h
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/NSImage+raw.mm
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/NSImage+raw.mm
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/OSX/SFContext.mm.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Clock.hpp
@@ -368,7 +368,7 @@
  ../3dparty/sfml/src/SFML/Window/iOS/CursorImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/JoystickImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/SensorImpl.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/SFContext.mm
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/SFContext.mm
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/OSX/SFKeyboardModifiersHelper.mm.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Clock.hpp
@@ -420,7 +420,7 @@
  ../3dparty/sfml/src/SFML/Window/iOS/CursorImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/JoystickImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/SensorImpl.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/SFKeyboardModifiersHelper.mm
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/SFKeyboardModifiersHelper.mm
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/OSX/SFOpenGLView+keyboard.mm.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Clock.hpp
@@ -475,7 +475,7 @@
  ../3dparty/sfml/src/SFML/Window/iOS/CursorImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/JoystickImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/SensorImpl.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/SFOpenGLView+keyboard.mm
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/SFOpenGLView+keyboard.mm
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/OSX/SFOpenGLView+mouse.mm.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Clock.hpp
@@ -528,7 +528,7 @@
  ../3dparty/sfml/src/SFML/Window/iOS/CursorImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/JoystickImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/SensorImpl.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/SFOpenGLView+mouse.mm
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/SFOpenGLView+mouse.mm
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/OSX/SFOpenGLView.mm.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Clock.hpp
@@ -583,7 +583,7 @@
  ../3dparty/sfml/src/SFML/Window/iOS/CursorImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/JoystickImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/SensorImpl.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/SFOpenGLView.mm
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/SFOpenGLView.mm
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/OSX/SFViewController.mm.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Clock.hpp
@@ -638,7 +638,7 @@
  ../3dparty/sfml/src/SFML/Window/iOS/CursorImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/JoystickImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/SensorImpl.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/SFViewController.mm
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/SFViewController.mm
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/OSX/SFWindowController.mm.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Clock.hpp
@@ -696,7 +696,7 @@
  ../3dparty/sfml/src/SFML/Window/iOS/CursorImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/JoystickImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/SensorImpl.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/SFWindowController.mm
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/SFWindowController.mm
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/OSX/SensorImpl.cpp.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Export.hpp
@@ -711,7 +711,7 @@
  ../3dparty/sfml/src/SFML/Window/Unix/SensorImpl.hpp
  ../3dparty/sfml/src/SFML/Window/Win32/SensorImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/SensorImpl.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/SensorImpl.cpp
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/SensorImpl.cpp
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/OSX/VideoModeImpl.cpp.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Err.hpp
@@ -720,7 +720,7 @@
  ../3dparty/sfml/include/SFML/Window/VideoMode.hpp
  ../3dparty/sfml/src/SFML/Window/OSX/cg_sf_conversion.hpp
  ../3dparty/sfml/src/SFML/Window/VideoModeImpl.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/VideoModeImpl.cpp
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/VideoModeImpl.cpp
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/OSX/WindowImplCocoa.mm.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Clock.hpp
@@ -780,7 +780,7 @@
  ../3dparty/sfml/src/SFML/Window/iOS/CursorImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/JoystickImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/SensorImpl.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/WindowImplCocoa.mm
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/WindowImplCocoa.mm
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/OSX/cg_sf_conversion.mm.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Err.hpp
@@ -791,7 +791,7 @@
  ../3dparty/sfml/src/SFML/Window/OSX/Scaling.h
  ../3dparty/sfml/src/SFML/Window/OSX/WindowImplDelegateProtocol.h
  ../3dparty/sfml/src/SFML/Window/OSX/cg_sf_conversion.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/cg_sf_conversion.mm
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/cg_sf_conversion.mm
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/OSX/cpp_objc_conversion.mm.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Export.hpp
@@ -800,7 +800,7 @@
  ../3dparty/sfml/include/SFML/System/Utf.hpp
  ../3dparty/sfml/include/SFML/System/Utf.inl
  ../3dparty/sfml/src/SFML/Window/OSX/cpp_objc_conversion.h
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/cpp_objc_conversion.mm
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/cpp_objc_conversion.mm
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Export.hpp
@@ -817,7 +817,7 @@
  ../3dparty/sfml/src/SFML/Window/Unix/SensorImpl.hpp
  ../3dparty/sfml/src/SFML/Window/Win32/SensorImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/SensorImpl.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/Sensor.cpp
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/Sensor.cpp
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Err.hpp
@@ -835,7 +835,7 @@
  ../3dparty/sfml/src/SFML/Window/Unix/SensorImpl.hpp
  ../3dparty/sfml/src/SFML/Window/Win32/SensorImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/SensorImpl.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/SensorManager.cpp
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/SensorManager.cpp
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Vector2.hpp
@@ -850,13 +850,13 @@
  ../3dparty/sfml/src/SFML/Window/Unix/InputImpl.hpp
  ../3dparty/sfml/src/SFML/Window/Win32/InputImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/InputImpl.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/Touch.cpp
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/Touch.cpp
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/Window/Export.hpp
  ../3dparty/sfml/include/SFML/Window/VideoMode.hpp
  ../3dparty/sfml/src/SFML/Window/VideoModeImpl.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/VideoMode.cpp
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/VideoMode.cpp
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/System/Clock.hpp
@@ -909,7 +909,7 @@
  ../3dparty/sfml/src/SFML/Window/iOS/CursorImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/JoystickImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/SensorImpl.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/Window.cpp
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/Window.cpp
 3dparty/sfml/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o
  ../3dparty/sfml/include/SFML/Config.hpp
  ../3dparty/sfml/include/SFML/OpenGL.hpp
@@ -975,4 +975,4 @@
  ../3dparty/sfml/src/SFML/Window/iOS/ObjCType.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/SensorImpl.hpp
  ../3dparty/sfml/src/SFML/Window/iOS/WindowImplUIKit.hpp
- /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/WindowImpl.cpp
+ /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/WindowImpl.cpp

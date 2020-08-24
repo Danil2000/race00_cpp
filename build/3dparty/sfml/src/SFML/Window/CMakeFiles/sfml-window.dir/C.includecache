@@ -26,19 +26,19 @@ AppKit/AppKit.h
 AppKit/AppKit.h
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/SFApplication.m
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/SFApplication.m
 SFML/Window/OSX/SFApplication.h
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/SFApplicationDelegate.m
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/SFApplicationDelegate.m
 SFML/Window/OSX/SFApplicationDelegate.h
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/SFSilentResponder.m
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/SFSilentResponder.m
 SFML/Window/OSX/SFSilentResponder.h
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/SFWindow.m
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/SFWindow.m
 SFML/Window/OSX/SFWindow.h
 -
 

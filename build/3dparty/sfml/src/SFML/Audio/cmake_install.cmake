@@ -1,8 +1,8 @@
-# Install script for directory: /Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Audio
+# Install script for directory: /Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Audio
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/nkrutoholo/.brew")
+  set(CMAKE_INSTALL_PREFIX "/Users/dyanchuk/.brew")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,8 +39,8 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xbinx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/lib/libsfml-audio.2.5.1.dylib"
-    "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/lib/libsfml-audio.2.5.dylib"
+    "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/lib/libsfml-audio.2.5.1.dylib"
+    "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/lib/libsfml-audio.2.5.dylib"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsfml-audio.2.5.1.dylib"
@@ -49,13 +49,13 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xbinx" OR NOT CMAKE_INSTALL_COMPONEN
     if(EXISTS "${file}" AND
        NOT IS_SYMLINK "${file}")
       execute_process(COMMAND /usr/bin/install_name_tool
-        -delete_rpath "/Users/nkrutoholo/Desktop/race00/3dparty/SFML_LIBRARY_DIR"
+        -delete_rpath "/Users/dyanchuk/Desktop/race00_cpp/3dparty/SFML_LIBRARY_DIR"
         "${file}")
       execute_process(COMMAND /usr/bin/install_name_tool
-        -delete_rpath "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/lib"
+        -delete_rpath "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/lib"
         "${file}")
       execute_process(COMMAND /usr/bin/install_name_tool
-        -delete_rpath "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/extlibs/libs-osx/Frameworks"
+        -delete_rpath "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/extlibs/libs-osx/Frameworks"
         "${file}")
       if(CMAKE_INSTALL_DO_STRIP)
         execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/strip" -x "${file}")
@@ -65,17 +65,17 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xbinx" OR NOT CMAKE_INSTALL_COMPONEN
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xbinx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/lib/libsfml-audio.dylib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/lib/libsfml-audio.dylib")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsfml-audio.dylib" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsfml-audio.dylib")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/nkrutoholo/Desktop/race00/3dparty/SFML_LIBRARY_DIR"
+      -delete_rpath "/Users/dyanchuk/Desktop/race00_cpp/3dparty/SFML_LIBRARY_DIR"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsfml-audio.dylib")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/lib"
+      -delete_rpath "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/lib"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsfml-audio.dylib")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/extlibs/libs-osx/Frameworks"
+      -delete_rpath "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/extlibs/libs-osx/Frameworks"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsfml-audio.dylib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsfml-audio.dylib")

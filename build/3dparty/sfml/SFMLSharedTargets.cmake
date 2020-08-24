@@ -49,14 +49,14 @@ unset(_expectedTargets)
 add_library(sfml-system SHARED IMPORTED)
 
 set_target_properties(sfml-system PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/include"
 )
 
 # Create imported target sfml-window
 add_library(sfml-window SHARED IMPORTED)
 
 set_target_properties(sfml-window PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/include"
   INTERFACE_LINK_LIBRARIES "sfml-system"
 )
 
@@ -72,7 +72,7 @@ set_target_properties(OpenGL PROPERTIES
 add_library(sfml-network SHARED IMPORTED)
 
 set_target_properties(sfml-network PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/include"
   INTERFACE_LINK_LIBRARIES "sfml-system"
 )
 
@@ -80,7 +80,7 @@ set_target_properties(sfml-network PROPERTIES
 add_library(sfml-graphics SHARED IMPORTED)
 
 set_target_properties(sfml-graphics PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/include"
   INTERFACE_LINK_LIBRARIES "sfml-window"
 )
 
@@ -88,8 +88,8 @@ set_target_properties(sfml-graphics PROPERTIES
 add_library(Freetype INTERFACE IMPORTED)
 
 set_target_properties(Freetype PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/extlibs/headers/freetype2;/Users/nkrutoholo/.brew/include/freetype2"
-  INTERFACE_LINK_LIBRARIES "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/extlibs/libs-osx/Frameworks/freetype.framework"
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/extlibs/headers/freetype2;/Users/dyanchuk/.brew/include/freetype2"
+  INTERFACE_LINK_LIBRARIES "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/extlibs/libs-osx/Frameworks/freetype.framework"
 )
 
 # Create imported target OpenAL
@@ -97,7 +97,7 @@ add_library(OpenAL INTERFACE IMPORTED)
 
 set_target_properties(OpenAL PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenAL.framework/Headers"
-  INTERFACE_LINK_LIBRARIES "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/extlibs/libs-osx/Frameworks/OpenAL.framework"
+  INTERFACE_LINK_LIBRARIES "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/extlibs/libs-osx/Frameworks/OpenAL.framework"
 )
 
 # Create imported target Vorbis
@@ -105,8 +105,8 @@ add_library(Vorbis INTERFACE IMPORTED)
 
 set_target_properties(Vorbis PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "OV_EXCLUDE_STATIC_CALLBACKS"
-  INTERFACE_INCLUDE_DIRECTORIES "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/extlibs/headers;/Users/nkrutoholo/Desktop/race00/3dparty/sfml/extlibs/headers"
-  INTERFACE_LINK_LIBRARIES "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/extlibs/libs-osx/Frameworks/vorbisenc.framework;/Users/nkrutoholo/Desktop/race00/3dparty/sfml/extlibs/libs-osx/Frameworks/vorbisfile.framework;/Users/nkrutoholo/Desktop/race00/3dparty/sfml/extlibs/libs-osx/Frameworks/vorbis.framework;/Users/nkrutoholo/Desktop/race00/3dparty/sfml/extlibs/libs-osx/Frameworks/ogg.framework"
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/extlibs/headers;/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/extlibs/headers"
+  INTERFACE_LINK_LIBRARIES "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/extlibs/libs-osx/Frameworks/vorbisenc.framework;/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/extlibs/libs-osx/Frameworks/vorbisfile.framework;/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/extlibs/libs-osx/Frameworks/vorbis.framework;/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/extlibs/libs-osx/Frameworks/ogg.framework"
 )
 
 # Create imported target FLAC
@@ -114,50 +114,50 @@ add_library(FLAC INTERFACE IMPORTED)
 
 set_target_properties(FLAC PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "FLAC__NO_DLL"
-  INTERFACE_INCLUDE_DIRECTORIES "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/extlibs/headers"
-  INTERFACE_LINK_LIBRARIES "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/extlibs/libs-osx/Frameworks/FLAC.framework"
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/extlibs/headers"
+  INTERFACE_LINK_LIBRARIES "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/extlibs/libs-osx/Frameworks/FLAC.framework"
 )
 
 # Create imported target sfml-audio
 add_library(sfml-audio SHARED IMPORTED)
 
 set_target_properties(sfml-audio PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/Users/nkrutoholo/Desktop/race00/3dparty/sfml/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/include"
   INTERFACE_LINK_LIBRARIES "sfml-system"
 )
 
 # Import target "sfml-system" for configuration ""
 set_property(TARGET sfml-system APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(sfml-system PROPERTIES
-  IMPORTED_LOCATION_NOCONFIG "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/lib/libsfml-system.2.5.1.dylib"
+  IMPORTED_LOCATION_NOCONFIG "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/lib/libsfml-system.2.5.1.dylib"
   IMPORTED_SONAME_NOCONFIG "@rpath/libsfml-system.2.5.dylib"
   )
 
 # Import target "sfml-window" for configuration ""
 set_property(TARGET sfml-window APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(sfml-window PROPERTIES
-  IMPORTED_LOCATION_NOCONFIG "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/lib/libsfml-window.2.5.1.dylib"
+  IMPORTED_LOCATION_NOCONFIG "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/lib/libsfml-window.2.5.1.dylib"
   IMPORTED_SONAME_NOCONFIG "@rpath/libsfml-window.2.5.dylib"
   )
 
 # Import target "sfml-network" for configuration ""
 set_property(TARGET sfml-network APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(sfml-network PROPERTIES
-  IMPORTED_LOCATION_NOCONFIG "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/lib/libsfml-network.2.5.1.dylib"
+  IMPORTED_LOCATION_NOCONFIG "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/lib/libsfml-network.2.5.1.dylib"
   IMPORTED_SONAME_NOCONFIG "@rpath/libsfml-network.2.5.dylib"
   )
 
 # Import target "sfml-graphics" for configuration ""
 set_property(TARGET sfml-graphics APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(sfml-graphics PROPERTIES
-  IMPORTED_LOCATION_NOCONFIG "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/lib/libsfml-graphics.2.5.1.dylib"
+  IMPORTED_LOCATION_NOCONFIG "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/lib/libsfml-graphics.2.5.1.dylib"
   IMPORTED_SONAME_NOCONFIG "@rpath/libsfml-graphics.2.5.dylib"
   )
 
 # Import target "sfml-audio" for configuration ""
 set_property(TARGET sfml-audio APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(sfml-audio PROPERTIES
-  IMPORTED_LOCATION_NOCONFIG "/Users/nkrutoholo/Desktop/race00/build/3dparty/sfml/lib/libsfml-audio.2.5.1.dylib"
+  IMPORTED_LOCATION_NOCONFIG "/Users/dyanchuk/Desktop/race00_cpp/build/3dparty/sfml/lib/libsfml-audio.2.5.1.dylib"
   IMPORTED_SONAME_NOCONFIG "@rpath/libsfml-audio.2.5.dylib"
   )
 

@@ -58,19 +58,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Users/nkrutoholo/.brew/Cellar/cmake/3.18.1/bin/cmake
+CMAKE_COMMAND = /Users/dyanchuk/.brew/Cellar/cmake/3.18.1/bin/cmake
 
 # The command to remove a file.
-RM = /Users/nkrutoholo/.brew/Cellar/cmake/3.18.1/bin/cmake -E rm -f
+RM = /Users/dyanchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/nkrutoholo/Desktop/race00
+CMAKE_SOURCE_DIR = /Users/dyanchuk/Desktop/race00_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/nkrutoholo/Desktop/race00/build
+CMAKE_BINARY_DIR = /Users/dyanchuk/Desktop/race00_cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,37 +78,37 @@ CMAKE_BINARY_DIR = /Users/nkrutoholo/Desktop/race00/build
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/Users/nkrutoholo/.brew/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/Users/dyanchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/Users/nkrutoholo/.brew/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/Users/dyanchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/Users/nkrutoholo/.brew/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/Users/dyanchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/Users/nkrutoholo/.brew/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/Users/dyanchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/Users/nkrutoholo/.brew/Cellar/cmake/3.18.1/bin/cmake -P cmake_install.cmake
+	/Users/dyanchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/Users/nkrutoholo/.brew/Cellar/cmake/3.18.1/bin/cmake -P cmake_install.cmake
+	/Users/dyanchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target list_install_components
@@ -124,7 +124,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Users/nkrutoholo/.brew/Cellar/cmake/3.18.1/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/dyanchuk/.brew/Cellar/cmake/3.18.1/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -135,7 +135,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/Users/nkrutoholo/.brew/Cellar/cmake/3.18.1/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/dyanchuk/.brew/Cellar/cmake/3.18.1/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -145,14 +145,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/nkrutoholo/Desktop/race00/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/nkrutoholo/Desktop/race00/build/CMakeFiles /Users/nkrutoholo/Desktop/race00/build/app/src//CMakeFiles/progress.marks
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nkrutoholo/Desktop/race00/build/CMakeFiles 0
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/dyanchuk/Desktop/race00_cpp/build/CMakeFiles /Users/dyanchuk/Desktop/race00_cpp/build/app/src//CMakeFiles/progress.marks
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dyanchuk/Desktop/race00_cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/src/clean
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,22 +162,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/src/preinstall
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/src/preinstall
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 app/src/CMakeFiles/src.dir/rule:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/src/CMakeFiles/src.dir/rule
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/src/CMakeFiles/src.dir/rule
 .PHONY : app/src/CMakeFiles/src.dir/rule
 
 # Convenience name for target.
@@ -187,7 +187,7 @@ src: app/src/CMakeFiles/src.dir/rule
 
 # fast build rule for target.
 src/fast:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/build
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/build
 .PHONY : src/fast
 
 Game.o: Game.cpp.o
@@ -196,7 +196,7 @@ Game.o: Game.cpp.o
 
 # target to build an object file
 Game.cpp.o:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/Game.cpp.o
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/Game.cpp.o
 .PHONY : Game.cpp.o
 
 Game.i: Game.cpp.i
@@ -205,7 +205,7 @@ Game.i: Game.cpp.i
 
 # target to preprocess a source file
 Game.cpp.i:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/Game.cpp.i
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/Game.cpp.i
 .PHONY : Game.cpp.i
 
 Game.s: Game.cpp.s
@@ -214,7 +214,7 @@ Game.s: Game.cpp.s
 
 # target to generate assembly for a file
 Game.cpp.s:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/Game.cpp.s
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/Game.cpp.s
 .PHONY : Game.cpp.s
 
 # Help Target
@@ -244,6 +244,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/nkrutoholo/Desktop/race00/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/dyanchuk/Desktop/race00_cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

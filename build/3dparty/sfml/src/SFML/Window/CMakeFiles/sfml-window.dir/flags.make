@@ -5,7 +5,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 C_DEFINES = -DSFML_WINDOW_EXPORTS
 
-C_INCLUDES = -I/Users/nkrutoholo/Desktop/race00/3dparty/SFML_INCLUDE_DIR -I/Users/nkrutoholo/Desktop/race00/3dparty/sfml/include -I/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks
+C_INCLUDES = -I/Users/dyanchuk/Desktop/race00_cpp/3dparty/SFML_INCLUDE_DIR -I/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/include -I/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks
 
 C_FLAGSx86_64 =  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIC -stdlib=libc++
 
@@ -13,7 +13,7 @@ C_FLAGS =  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOS
 
 CXX_DEFINES = -DSFML_WINDOW_EXPORTS
 
-CXX_INCLUDES = -I/Users/nkrutoholo/Desktop/race00/3dparty/SFML_INCLUDE_DIR -I/Users/nkrutoholo/Desktop/race00/3dparty/sfml/include -I/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks
+CXX_INCLUDES = -I/Users/dyanchuk/Desktop/race00_cpp/3dparty/SFML_INCLUDE_DIR -I/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/include -I/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks
 
 CXX_FLAGSx86_64 =  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIC -stdlib=libc++
 

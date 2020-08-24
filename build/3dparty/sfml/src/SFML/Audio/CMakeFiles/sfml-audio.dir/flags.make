@@ -4,9 +4,9 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS
 
-CXX_INCLUDES = -I/Users/nkrutoholo/Desktop/race00/3dparty/SFML_INCLUDE_DIR -I/Users/nkrutoholo/Desktop/race00/3dparty/sfml/include -I/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenAL.framework/Headers -I/Users/nkrutoholo/Desktop/race00/3dparty/sfml/extlibs/headers
+CXX_INCLUDES = -I/Users/dyanchuk/Desktop/race00_cpp/3dparty/SFML_INCLUDE_DIR -I/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/include -I/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src -I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenAL.framework/Headers -I/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/extlibs/headers
 
-CXX_FLAGSx86_64 =  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIC -F/Users/nkrutoholo/Desktop/race00/3dparty/sfml/extlibs/libs-osx/Frameworks  -stdlib=libc++
+CXX_FLAGSx86_64 =  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIC -F/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/extlibs/libs-osx/Frameworks  -stdlib=libc++
 
-CXX_FLAGS =  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIC -F/Users/nkrutoholo/Desktop/race00/3dparty/sfml/extlibs/libs-osx/Frameworks  -stdlib=libc++
+CXX_FLAGS =  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fPIC -F/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/extlibs/libs-osx/Frameworks  -stdlib=libc++
 

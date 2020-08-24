@@ -834,7 +834,7 @@ SFML/Window/WindowImpl.hpp
 SFML/Window/iOS/ObjCType.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/Clipboard.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/Clipboard.cpp
 SFML/Window/Clipboard.hpp
 -
 SFML/Window/ClipboardImpl.hpp
@@ -842,7 +842,7 @@ SFML/Window/ClipboardImpl.hpp
 SFML/System/String.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/Context.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/Context.cpp
 SFML/Window/Context.hpp
 -
 SFML/Window/GlContext.hpp
@@ -850,13 +850,13 @@ SFML/Window/GlContext.hpp
 SFML/System/ThreadLocalPtr.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/Cursor.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/Cursor.cpp
 SFML/Window/Cursor.hpp
 -
 SFML/Window/CursorImpl.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/GlContext.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/GlContext.cpp
 SFML/Window/GlContext.hpp
 -
 SFML/Window/Context.hpp
@@ -900,29 +900,29 @@ SFML/Window/iOS/EaglContext.hpp
 SFML/Window/EglContext.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/GlResource.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/GlResource.cpp
 SFML/Window/GlResource.hpp
 -
 SFML/Window/GlContext.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/Joystick.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/Joystick.cpp
 SFML/Window/Joystick.hpp
 -
 SFML/Window/JoystickManager.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/JoystickManager.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/JoystickManager.cpp
 SFML/Window/JoystickManager.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/Keyboard.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/Keyboard.cpp
 SFML/Window/Keyboard.hpp
 -
 SFML/Window/InputImpl.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/Mouse.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/Mouse.cpp
 SFML/Window/Mouse.hpp
 -
 SFML/Window/InputImpl.hpp
@@ -930,7 +930,7 @@ SFML/Window/InputImpl.hpp
 SFML/Window/Window.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/AutoreleasePoolWrapper.mm
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/AutoreleasePoolWrapper.mm
 cassert
 -
 pthread.h
@@ -940,13 +940,13 @@ SFML/Window/OSX/AutoreleasePoolWrapper.h
 Foundation/Foundation.h
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/ClipboardImpl.mm
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/ClipboardImpl.mm
 SFML/Window/OSX/ClipboardImpl.hpp
 -
 AppKit/AppKit.h
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/CursorImpl.mm
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/CursorImpl.mm
 SFML/Window/OSX/CursorImpl.hpp
 -
 SFML/Window/OSX/AutoreleasePoolWrapper.h
@@ -956,7 +956,7 @@ SFML/Window/OSX/NSImage+raw.h
 AppKit/AppKit.h
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/HIDInputManager.mm
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/HIDInputManager.mm
 SFML/Window/OSX/HIDInputManager.hpp
 -
 SFML/System/Err.hpp
@@ -964,13 +964,13 @@ SFML/System/Err.hpp
 AppKit/AppKit.h
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/HIDJoystickManager.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/HIDJoystickManager.cpp
 SFML/Window/OSX/HIDInputManager.hpp
 -
 SFML/Window/OSX/HIDJoystickManager.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/InputImpl.mm
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/InputImpl.mm
 SFML/Window/VideoMode.hpp
 -
 SFML/Window/Window.hpp
@@ -986,7 +986,7 @@ SFML/Window/OSX/SFOpenGLView.h
 AppKit/AppKit.h
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/JoystickImpl.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/JoystickImpl.cpp
 SFML/Window/JoystickImpl.hpp
 -
 SFML/Window/OSX/HIDInputManager.hpp
@@ -996,11 +996,11 @@ SFML/Window/OSX/HIDJoystickManager.hpp
 SFML/System/Err.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/NSImage+raw.mm
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/NSImage+raw.mm
 SFML/Window/OSX/NSImage+raw.h
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/SFContext.mm
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/SFContext.mm
 SFML/Window/OSX/SFContext.hpp
 -
 SFML/Window/OSX/WindowImplCocoa.hpp
@@ -1014,13 +1014,13 @@ stdint.h
 SFML/Window/OSX/AutoreleasePoolWrapper.h
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/SFKeyboardModifiersHelper.mm
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/SFKeyboardModifiersHelper.mm
 SFML/Window/OSX/WindowImplCocoa.hpp
 -
 SFML/Window/OSX/SFKeyboardModifiersHelper.h
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/SFOpenGLView+keyboard.mm
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/SFOpenGLView+keyboard.mm
 SFML/Window/OSX/WindowImplCocoa.hpp
 -
 SFML/Window/OSX/HIDInputManager.hpp
@@ -1032,7 +1032,7 @@ SFML/Window/OSX/SFOpenGLView.h
 SFML/Window/OSX/SFOpenGLView+keyboard_priv.h
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/SFOpenGLView+mouse.mm
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/SFOpenGLView+mouse.mm
 SFML/Window/OSX/WindowImplCocoa.hpp
 -
 cmath
@@ -1042,7 +1042,7 @@ SFML/Window/OSX/SFOpenGLView.h
 SFML/Window/OSX/SFOpenGLView+mouse_priv.h
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/SFOpenGLView.mm
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/SFOpenGLView.mm
 SFML/Window/OSX/WindowImplCocoa.hpp
 -
 SFML/System/Err.hpp
@@ -1054,7 +1054,7 @@ SFML/Window/OSX/SFOpenGLView+mouse_priv.h
 SFML/Window/OSX/SFSilentResponder.h
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/SFViewController.mm
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/SFViewController.mm
 SFML/System/Err.hpp
 -
 SFML/Window/OSX/WindowImplCocoa.hpp
@@ -1066,7 +1066,7 @@ SFML/Window/OSX/SFOpenGLView.h
 SFML/Window/OSX/SFViewController.h
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/SFWindowController.mm
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/SFWindowController.mm
 SFML/Window/VideoMode.hpp
 -
 SFML/Window/WindowHandle.hpp
@@ -1096,11 +1096,11 @@ SFML/Window/OSX/SFWindowController.h
 OpenGL/OpenGL.h
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/SensorImpl.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/SensorImpl.cpp
 SFML/Window/SensorImpl.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/VideoModeImpl.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/VideoModeImpl.cpp
 SFML/Window/VideoModeImpl.hpp
 -
 SFML/Window/OSX/cg_sf_conversion.hpp
@@ -1110,7 +1110,7 @@ SFML/System/Err.hpp
 algorithm
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/WindowImplCocoa.mm
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/WindowImplCocoa.mm
 SFML/Window/OSX/WindowImplCocoa.hpp
 -
 SFML/System/Err.hpp
@@ -1132,7 +1132,7 @@ SFML/Window/OSX/SFViewController.h
 SFML/Window/OSX/SFWindowController.h
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/cg_sf_conversion.mm
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/cg_sf_conversion.mm
 SFML/Window/OSX/cg_sf_conversion.hpp
 -
 SFML/System/Err.hpp
@@ -1140,7 +1140,7 @@ SFML/System/Err.hpp
 SFML/Window/OSX/Scaling.h
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/OSX/cpp_objc_conversion.mm
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/OSX/cpp_objc_conversion.mm
 SFML/System/Utf.hpp
 -
 SFML/Window/OSX/cpp_objc_conversion.h
@@ -1148,25 +1148,25 @@ SFML/Window/OSX/cpp_objc_conversion.h
 Foundation/Foundation.h
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/Sensor.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/Sensor.cpp
 SFML/Window/Sensor.hpp
 -
 SFML/Window/SensorManager.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/SensorManager.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/SensorManager.cpp
 SFML/Window/SensorManager.hpp
 -
 SFML/System/Err.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/Touch.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/Touch.cpp
 SFML/Window/Touch.hpp
 -
 SFML/Window/InputImpl.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/VideoMode.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/VideoMode.cpp
 SFML/Window/VideoMode.hpp
 -
 SFML/Window/VideoModeImpl.hpp
@@ -1176,7 +1176,7 @@ algorithm
 functional
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/Window.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/Window.cpp
 SFML/Window/Window.hpp
 -
 SFML/Window/GlContext.hpp
@@ -1188,7 +1188,7 @@ SFML/System/Sleep.hpp
 SFML/System/Err.hpp
 -
 
-/Users/nkrutoholo/Desktop/race00/3dparty/sfml/src/SFML/Window/WindowImpl.cpp
+/Users/dyanchuk/Desktop/race00_cpp/3dparty/sfml/src/SFML/Window/WindowImpl.cpp
 SFML/Window/WindowImpl.hpp
 -
 SFML/Window/Event.hpp
